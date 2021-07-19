@@ -1,0 +1,1899 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'pt' Physical Memory: 16285 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lucas/OneDrive/Documentos/GitHub/REALVI Scape Room
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55861
+Successfully changed project path to: C:/Users/lucas/OneDrive/Documentos/GitHub/REALVI Scape Room
+C:/Users/lucas/OneDrive/Documentos/GitHub/REALVI Scape Room
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lucas/OneDrive/Documentos/GitHub/REALVI Scape Room/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004643 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2696ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2319ms)
+		BeginReloadAssembly (310ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1834ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (682ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (689ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 4.156300 ms (FindLiveObjects: 0.617700 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.277800 ms  DeleteObjects: 0.140200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ScifiOfficeLite/Scene
+  artifactKey: Guid(d5dd4cbbdd7cfe14bb9b1fab1315ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene using Guid(d5dd4cbbdd7cfe14bb9b1fab1315ac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee0c52518f5eacedf06fabb825797d4') in 0.020843 seconds 
+  Import took 0.024385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/ScifiOfficeLite/Meshes
+  artifactKey: Guid(092d6f8b6c1f1724998ada95645b18e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes using Guid(092d6f8b6c1f1724998ada95645b18e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2a34021bddd4e47696ffe0d1d877d2') in 0.011359 seconds 
+  Import took 0.014823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/ScifiOfficeLite
+  artifactKey: Guid(834bff2a2b4d3be48964ffa1eecf9e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite using Guid(834bff2a2b4d3be48964ffa1eecf9e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962aa303331f049e6a88a65d4ad2fae4') in 0.012063 seconds 
+  Import took 0.015602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo.unity
+  artifactKey: Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo.unity using Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa916a178eab5fea94b6135208ac34e') in 0.079025 seconds 
+  Import took 0.082594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Asset Display.unity
+  artifactKey: Guid(b5888b526e2805241b71e0569dbb76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Asset Display.unity using Guid(b5888b526e2805241b71e0569dbb76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5c03c27d61aab8b5b9a9866f6bd1a1') in 0.011114 seconds 
+  Import took 0.014411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs
+  artifactKey: Guid(6d19b00448a96fe42bf2a9c6cc6ef5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs using Guid(6d19b00448a96fe42bf2a9c6cc6ef5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd765d010a385ad8df748175938ab175e') in 0.011525 seconds 
+  Import took 0.015101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204279 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo.unity
+  artifactKey: Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo.unity using Guid(98f89f3b6ce2800479ea621b4ad1bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa916a178eab5fea94b6135208ac34e') in 0.005768 seconds 
+  Import took 0.012348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2902ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2412ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (856ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (841ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (498ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1828.
+Total: 4.327300 ms (FindLiveObjects: 0.568700 ms CreateObjectMapping: 0.204300 ms MarkObjects: 3.466500 ms  DeleteObjects: 0.086200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216.428025 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials
+  artifactKey: Guid(eca3c37a78f8a8a479cafd4a87f3dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials using Guid(eca3c37a78f8a8a479cafd4a87f3dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334a44c0117c5e1f1466734dd9dd404c') in 0.031526 seconds 
+  Import took 0.038765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508139 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls
+  artifactKey: Guid(ffb12b39853d30b41aab8e8392e75005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls using Guid(ffb12b39853d30b41aab8e8392e75005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1b609f869f359c9d4aed57e82b06a') in 0.014433 seconds 
+  Import took 0.018150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092304 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall 2 Half.FBX
+  artifactKey: Guid(2506e085753a9db4fbe8479c1d42a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall 2 Half.FBX using Guid(2506e085753a9db4fbe8479c1d42a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faf53d5270f0e92dd0e310d058215ed') in 1.214059 seconds 
+  Import took 1.220135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall With Windows Set 10.FBX
+  artifactKey: Guid(079bbfeb36213f14dbeb94410d3f7377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall With Windows Set 10.FBX using Guid(079bbfeb36213f14dbeb94410d3f7377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8199d82c7200fc61ce0758bdbad8769d') in 0.520571 seconds 
+  Import took 0.524296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 1.FBX
+  artifactKey: Guid(7f3f723d286592a41b8ff4a9a618917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 1.FBX using Guid(7f3f723d286592a41b8ff4a9a618917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f575dab9fe82d703ab467cfce0e9dafe') in 0.089376 seconds 
+  Import took 0.097250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall 2.FBX
+  artifactKey: Guid(b30484f622ab5774f98c23785e2be964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall 2.FBX using Guid(b30484f622ab5774f98c23785e2be964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a32ed4db08d41e6823a9c6830262f') in 0.124754 seconds 
+  Import took 0.131791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 1.FBX
+  artifactKey: Guid(4873fc9788a58944891c70586f2a565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 1.FBX using Guid(4873fc9788a58944891c70586f2a565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20efa2f5c2fcedeef9c5822a1cb2c2f') in 0.093262 seconds 
+  Import took 0.100011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall 4.FBX
+  artifactKey: Guid(01e56f6e47b405e4689821759816baf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall 4.FBX using Guid(01e56f6e47b405e4689821759816baf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07f75f4d5ffe5bfe463a5c17395568c') in 0.128242 seconds 
+  Import took 0.135437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 3.FBX
+  artifactKey: Guid(4d5d0a66e903ea14e8c955eb7d88c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 3.FBX using Guid(4d5d0a66e903ea14e8c955eb7d88c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc05deec45ba6907cf3e11f368b755f') in 0.090757 seconds 
+  Import took 0.097906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 3.FBX
+  artifactKey: Guid(c1d888a5bd7825344a41dbd872fd6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 3.FBX using Guid(c1d888a5bd7825344a41dbd872fd6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fdddb5d10f44f263be2ab0e9daf4a4') in 0.117501 seconds 
+  Import took 0.139925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194797 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior
+  artifactKey: Guid(90a78455a2353304ab18014cf93b4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior using Guid(90a78455a2353304ab18014cf93b4227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46076e7581c63d114f3c025b42364c74') in 0.033099 seconds 
+  Import took 0.036758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608448 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/DemoSkybox.mat
+  artifactKey: Guid(32ea4fce7231ca349a48b944302d257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/DemoSkybox.mat using Guid(32ea4fce7231ca349a48b944302d257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8866039137804a67c75e9fd9a7dfe7') in 0.046865 seconds 
+  Import took 0.050942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.174045 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats
+  artifactKey: Guid(78ca53e47e42fcf43b4f71b8b40e1092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats using Guid(78ca53e47e42fcf43b4f71b8b40e1092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacf73d80d9ffe5dde49800176469373') in 0.012405 seconds 
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.634979 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet
+  artifactKey: Guid(22917f72007f913409be43fa3f0d3206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet using Guid(22917f72007f913409be43fa3f0d3206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d08da9fa0742f98cd62d2973a077468') in 0.011354 seconds 
+  Import took 0.015617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097962 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet/Carpet 2.mat
+  artifactKey: Guid(df54338e7a7f2994fb0de694d0d18c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet/Carpet 2.mat using Guid(df54338e7a7f2994fb0de694d0d18c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303fe021a684bd584aa8e0954c3975bc') in 0.350188 seconds 
+  Import took 0.361909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet/Door Mat.mat
+  artifactKey: Guid(8353a5a73d3bc004a9c04c2527090bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Carpet/Door Mat.mat using Guid(8353a5a73d3bc004a9c04c2527090bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1605ae0a0bfe1d6f8f034277a90b1') in 0.188020 seconds 
+  Import took 0.199556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.510221 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures
+  artifactKey: Guid(1088c5cdc68e3574cac0009eb01706dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures using Guid(1088c5cdc68e3574cac0009eb01706dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b8f635da6bb57f184b4c4370fb5cac') in 0.065310 seconds 
+  Import took 0.073304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600756 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment
+  artifactKey: Guid(bff9b4ff2545a19438512dd0bba01c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment using Guid(bff9b4ff2545a19438512dd0bba01c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd30b93d0bde4ce754faebedcdba4cc') in 0.011803 seconds 
+  Import took 0.015380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100570 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Arm 1.FBX
+  artifactKey: Guid(2f3f5fc949fea6f46b038941d7fd2e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Arm 1.FBX using Guid(2f3f5fc949fea6f46b038941d7fd2e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33b722065700667944d54f4d23f1e07') in 0.192107 seconds 
+  Import took 0.197597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Server Rack.FBX
+  artifactKey: Guid(a60140d8f404d6b4982b90bfdc858298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Server Rack.FBX using Guid(a60140d8f404d6b4982b90bfdc858298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb631dc35b9239046aa4a437e24620') in 0.290868 seconds 
+  Import took 0.304610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/SciFiDoor.FBX
+  artifactKey: Guid(0be2d09ff087c6240b1805135c8628bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/SciFiDoor.FBX using Guid(0be2d09ff087c6240b1805135c8628bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee9836b5ecbc009b06da2d5de6045ef') in 0.523930 seconds 
+  Import took 0.529293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Claw.fbx
+  artifactKey: Guid(8e804f97ba971474581b166a0778476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Claw.fbx using Guid(8e804f97ba971474581b166a0778476b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b777315053b5a1017d5c21ba6704fc') in 0.106272 seconds 
+  Import took 0.109695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.431391 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Drawer 2.FBX
+  artifactKey: Guid(b3836257230618646b509f14e35dca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Drawer 2.FBX using Guid(b3836257230618646b509f14e35dca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b248f254823de4235682b66755d31') in 0.133846 seconds 
+  Import took 0.138910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Radio.FBX
+  artifactKey: Guid(2bb8e74e51bc707479666db31fc93b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Radio.FBX using Guid(2bb8e74e51bc707479666db31fc93b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9871a34ec976c8448939447eff9d7f06') in 0.062840 seconds 
+  Import took 0.067462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf Without Crates.FBX
+  artifactKey: Guid(286e43d1c643e32429628b056004c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf Without Crates.FBX using Guid(286e43d1c643e32429628b056004c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34537f0fbf5c41799deafc2bf535fde3') in 0.037159 seconds 
+  Import took 0.041050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Tray.FBX
+  artifactKey: Guid(77348b45d10d5804f974afd3b7582bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Tray.FBX using Guid(77348b45d10d5804f974afd3b7582bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8034f1b12e2944d3fb4b18a653e308') in 0.040585 seconds 
+  Import took 0.044097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Vase.fbx
+  artifactKey: Guid(3e37f6d84a91a56469b2a29089adff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Vase.fbx using Guid(3e37f6d84a91a56469b2a29089adff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536814ae8738889c36e097ca957fd41e') in 0.107430 seconds 
+  Import took 0.113750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf with Crates.FBX
+  artifactKey: Guid(66f91e45b3db4984494c4394f379f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf with Crates.FBX using Guid(66f91e45b3db4984494c4394f379f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387e4763ba3634246b4baff13705b7d4') in 0.125162 seconds 
+  Import took 0.129119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.728104 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Tv
+  artifactKey: Guid(b4c1c6b683aedde4e976b0fcd234a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Tv using Guid(b4c1c6b683aedde4e976b0fcd234a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f1c6d348f7b2df889bc2c55905c408') in 0.011892 seconds 
+  Import took 0.016272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534778 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet
+  artifactKey: Guid(8381016bd9d0b164c9a14dc2fd45d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet using Guid(8381016bd9d0b164c9a14dc2fd45d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae5ccae692adf39240527cd3bf702de') in 0.005786 seconds 
+  Import took 0.009997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501210 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Computers
+  artifactKey: Guid(3d0ff6bd62a9ca64188ba02d8a2035eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Computers using Guid(3d0ff6bd62a9ca64188ba02d8a2035eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec52197e74b873b3e6a28774c8c3cdd') in 0.015005 seconds 
+  Import took 0.019638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.389134 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Office Interior/Tables
+  artifactKey: Guid(6ec40c507596a394d8b81a8e1d7250ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Office Interior/Tables using Guid(6ec40c507596a394d8b81a8e1d7250ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8273ff37c39e3f7e6584231878be69') in 0.024831 seconds 
+  Import took 0.034772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.359991 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.012855 seconds 
+  Import took 0.016437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.122236 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389dec0db06e7d9c0dbc1537a396a069') in 0.030147 seconds 
+  Import took 0.045276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.735502 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Shelf with Crates.prefab
+  artifactKey: Guid(f355da60777d10946920a8b633e6b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Shelf with Crates.prefab using Guid(f355da60777d10946920a8b633e6b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d206afd8401273010c0ecbe9ae75b79') in 0.038285 seconds 
+  Import took 0.043107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Shelf without Crates.prefab
+  artifactKey: Guid(07ed13550a76cd2429958ba8f43d7c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Shelf without Crates.prefab using Guid(07ed13550a76cd2429958ba8f43d7c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15132118be235fbc6771726256758544') in 0.033143 seconds 
+  Import took 0.036757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tray.prefab
+  artifactKey: Guid(64c1ca436cc9f024b948da169e23de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tray.prefab using Guid(64c1ca436cc9f024b948da169e23de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c6fb91b7e55bd20757714b8eff1362') in 0.059260 seconds 
+  Import took 0.063479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003033 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tray.prefab
+  artifactKey: Guid(64c1ca436cc9f024b948da169e23de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tray.prefab using Guid(64c1ca436cc9f024b948da169e23de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c6fb91b7e55bd20757714b8eff1362') in 0.020468 seconds 
+  Import took 0.024431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.892836 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors
+  artifactKey: Guid(ff0f789902e100648bc385cb25123552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors using Guid(ff0f789902e100648bc385cb25123552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cb82d253139dbcf7e8068f349a3261') in 0.014196 seconds 
+  Import took 0.018999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.675828 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools
+  artifactKey: Guid(59e77c7ff6c7c9e47ae54363176204bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Chairs and Stools using Guid(59e77c7ff6c7c9e47ae54363176204bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28e7e147d200ea0811604eea6d0b0cf') in 0.011208 seconds 
+  Import took 0.014705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.162369 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Doors
+  artifactKey: Guid(dc22d4dc82d9b1e4a9e40980fe64d365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Doors using Guid(dc22d4dc82d9b1e4a9e40980fe64d365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a787a5c991b5581773478e867e531f') in 0.013874 seconds 
+  Import took 0.019659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449689 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Drawers
+  artifactKey: Guid(87cbe5d7953095e42bfee2a1411c100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Drawers using Guid(87cbe5d7953095e42bfee2a1411c100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ea27fa91607508af2d95ae44a90a91') in 0.020590 seconds 
+  Import took 0.027652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356536 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting
+  artifactKey: Guid(b876242c9588755499b2edb9d2ff2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting using Guid(b876242c9588755499b2edb9d2ff2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dcf2407bf4a704734e044d943c2247') in 0.013090 seconds 
+  Import took 0.016977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042306 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables
+  artifactKey: Guid(30f8ad2042ee31048a0894934f751dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables using Guid(30f8ad2042ee31048a0894934f751dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b901864c9775757463e97fb291fd28dc') in 0.008628 seconds 
+  Import took 0.012511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431322 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories
+  artifactKey: Guid(471d7a51e48b6f444809f36497e0ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories using Guid(471d7a51e48b6f444809f36497e0ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea86d032c865900ac3bf3a0a8399a13') in 0.018859 seconds 
+  Import took 0.024927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440384 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/TVs
+  artifactKey: Guid(980198049a5d1ff45b95b1643908cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/TVs using Guid(980198049a5d1ff45b95b1643908cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fbf4e1aa28a52e035d77333f6032ad') in 0.011766 seconds 
+  Import took 0.015244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444420 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall
+  artifactKey: Guid(f8863d9696c00d2409e6644a55211da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall using Guid(f8863d9696c00d2409e6644a55211da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01fcc8d46ba9ed2730325763464f2fc') in 0.034597 seconds 
+  Import took 0.041619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051763 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Door Wall Opaque.prefab
+  artifactKey: Guid(e73c1c658aeddd042bc049a907126289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Door Wall Opaque.prefab using Guid(e73c1c658aeddd042bc049a907126289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c69b0edbf5509c683d89d9923cc615') in 0.108811 seconds 
+  Import took 0.120397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece.prefab
+  artifactKey: Guid(8f5eff0dc5bed3f4ab0d6b39678e66d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece.prefab using Guid(8f5eff0dc5bed3f4ab0d6b39678e66d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7174739c6d34a4f78e9a7bf635b58d20') in 0.172720 seconds 
+  Import took 0.183696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar.prefab
+  artifactKey: Guid(964d019e82327ae41878ec0410f5d5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar.prefab using Guid(964d019e82327ae41878ec0410f5d5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb5781dbd6193fc4c04597e3747b016') in 0.143307 seconds 
+  Import took 0.154663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Variant.prefab
+  artifactKey: Guid(0e2e9d86e44cdba4b9e3bb8c0355c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Variant.prefab using Guid(0e2e9d86e44cdba4b9e3bb8c0355c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44df88c2d29be87e6729c2c45c6ad7a') in 0.113803 seconds 
+  Import took 0.129006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece Half.prefab
+  artifactKey: Guid(0429fb44681fb8f4d94ebb763bfad5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece Half.prefab using Guid(0429fb44681fb8f4d94ebb763bfad5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2272d7ef37e02cc37a448e7af7579c') in 0.174659 seconds 
+  Import took 0.188025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Window Set 10.prefab
+  artifactKey: Guid(4ab19bfbeb9048a45a44b9ce3847f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall Window Set 10.prefab using Guid(4ab19bfbeb9048a45a44b9ce3847f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9365344e600adda53f63c70cf10a64a') in 1.040757 seconds 
+  Import took 1.052840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half.prefab
+  artifactKey: Guid(dea43198b8686a948bb3630fc5fe44d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half.prefab using Guid(dea43198b8686a948bb3630fc5fe44d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c65cac063c21ed9b54026228c61c3f') in 0.138214 seconds 
+  Import took 0.149500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar 3.prefab
+  artifactKey: Guid(ffd39571c14682942b10081c3295091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar 3.prefab using Guid(ffd39571c14682942b10081c3295091c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5527bb09477ebc52a8429e608447d4') in 0.106206 seconds 
+  Import took 0.117338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2.prefab
+  artifactKey: Guid(2dc302b266fb645468046b3be6f8d332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2.prefab using Guid(2dc302b266fb645468046b3be6f8d332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5654560ff7ac97b53f0e257ecd88d566') in 0.150370 seconds 
+  Import took 0.165015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half Variant.prefab
+  artifactKey: Guid(0e026c030e3c02240a8bf69002a807b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half Variant.prefab using Guid(0e026c030e3c02240a8bf69002a807b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a81a4ad41a5545c5fefecf49d77c2a2') in 0.120908 seconds 
+  Import took 0.133105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.693187 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1 Variant.prefab
+  artifactKey: Guid(eaf9a67de8e9dd640a36a34bbe5c59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1 Variant.prefab using Guid(eaf9a67de8e9dd640a36a34bbe5c59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aec20197309f6d270a728a7495a4fc') in 0.070025 seconds 
+  Import took 0.080955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/PC 2.prefab
+  artifactKey: Guid(f9a1a5c1a73edba4e8a191866f65123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories/PC 2.prefab using Guid(f9a1a5c1a73edba4e8a191866f65123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a80517bf1def3fbc87dd94b3fc4da5') in 0.047878 seconds 
+  Import took 0.052302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1.prefab
+  artifactKey: Guid(a900f1c22e5d88743b2dcfab96b6a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1.prefab using Guid(a900f1c22e5d88743b2dcfab96b6a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6adf441320ec95d3d21ebc6568cc41e') in 0.108817 seconds 
+  Import took 0.113969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002665 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 2.prefab
+  artifactKey: Guid(cac581442f0ff4e429749ff81932fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 2.prefab using Guid(cac581442f0ff4e429749ff81932fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f65cfdb650317841ff84b549f3554a9') in 0.075023 seconds 
+  Import took 0.083969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Server Rack.prefab
+  artifactKey: Guid(ea0853a3b2545524481b0c984f27afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Server Rack.prefab using Guid(ea0853a3b2545524481b0c984f27afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c26d3184ee3f514b165b00849cb8b7') in 0.186214 seconds 
+  Import took 0.202572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.527801 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/20m Epoxy Ground.prefab
+  artifactKey: Guid(7ff30c7e7a931fa4abaacbcf858e20a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/20m Epoxy Ground.prefab using Guid(7ff30c7e7a931fa4abaacbcf858e20a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1c22a56c8e8c8366bad9f9bf81b43b') in 0.048105 seconds 
+  Import took 0.052081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 5.prefab
+  artifactKey: Guid(bc567933eeb3fc84987a3b0a2c87f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 5.prefab using Guid(bc567933eeb3fc84987a3b0a2c87f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241e807687503b8aafe98406d8608a91') in 0.113432 seconds 
+  Import took 0.124381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 13.prefab
+  artifactKey: Guid(f76c0046fe9320845991ccc887dd6674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 13.prefab using Guid(f76c0046fe9320845991ccc887dd6674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1994c877d6cbac467b01fb56c8487e1a') in 0.153031 seconds 
+  Import took 0.164626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 11.prefab
+  artifactKey: Guid(10a3779e5a6dba14c80e8ae762c9a3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 11.prefab using Guid(10a3779e5a6dba14c80e8ae762c9a3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0d782323f180de8bb2639aadb71cfd') in 0.117757 seconds 
+  Import took 0.154790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 10.prefab
+  artifactKey: Guid(95c12aea438e34b41ab9fb7a62aea92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 10.prefab using Guid(95c12aea438e34b41ab9fb7a62aea92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eeef43189c5a151f528f80abd86069') in 0.119241 seconds 
+  Import took 0.131130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 9.prefab
+  artifactKey: Guid(acab94f45c12b614bbebc0d29b12da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 9.prefab using Guid(acab94f45c12b614bbebc0d29b12da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2951772ce45d746714d9d1a73a8707d') in 0.159353 seconds 
+  Import took 0.170483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 12.prefab
+  artifactKey: Guid(da0accff20027304e9912226d132eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 12.prefab using Guid(da0accff20027304e9912226d132eaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dcbbf11da73f1d6de68b2210f6f3c6') in 0.109796 seconds 
+  Import took 0.121358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 8.prefab
+  artifactKey: Guid(ee96ae14708602d469d22f53342f354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 8.prefab using Guid(ee96ae14708602d469d22f53342f354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f2136968da6f080f670f9905c4e314') in 0.146805 seconds 
+  Import took 0.157893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.498976 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Lights/Ceiling Lights Lo.FBX
+  artifactKey: Guid(03f0313d06795894e85c89bfc12f42e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Lights/Ceiling Lights Lo.FBX using Guid(03f0313d06795894e85c89bfc12f42e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e15a93b9feeab90bac818d939ce6d7') in 0.078899 seconds 
+  Import took 0.090538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.846888 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Lights
+  artifactKey: Guid(41e84fca72f69a944bcbb5fed4882182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Lights using Guid(41e84fca72f69a944bcbb5fed4882182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b64d4a9c6a5c0db622b7757511a9b1') in 0.011870 seconds 
+  Import took 0.015534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.841188 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo
+  artifactKey: Guid(4fbc12896115ec44baeaee4a16baa653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo using Guid(4fbc12896115ec44baeaee4a16baa653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a210af2437d1ef993649cc63da26db7') in 0.012340 seconds 
+  Import took 0.015956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073465 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/LightingData.asset
+  artifactKey: Guid(7d1e882f91164dd498bdf38c0f6d9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/LightingData.asset using Guid(7d1e882f91164dd498bdf38c0f6d9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406cffb29199bb5bef1a7d36b888fce4') in 0.097805 seconds 
+  Import took 0.108020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(4b2efb0f662d74a4faddc3d249cc6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/ReflectionProbe-0.exr using Guid(4b2efb0f662d74a4faddc3d249cc6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c85e267ef49c45b4d03c8137ba97c8') in 0.051866 seconds 
+  Import took 0.057022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0f054b372c0b92a45ad3f20cb229f8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_light.exr using Guid(0f054b372c0b92a45ad3f20cb229f8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3057c4b84b6732b8b72a77b64bb0747') in 0.038646 seconds 
+  Import took 0.042165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(dafbb33ff9aa98f45aea50842b0092b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_shadowmask.png using Guid(dafbb33ff9aa98f45aea50842b0092b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247cdfc4c605b86aab5cec179331835f') in 0.026266 seconds 
+  Import took 0.029613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_dir.png
+  artifactKey: Guid(f31541c398376504cb81e355e497d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_dir.png using Guid(f31541c398376504cb81e355e497d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522287fc5b47dc1f3de6012440c8f0f8') in 0.025273 seconds 
+  Import took 0.029206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(0d345d9669cf0ee4ab097a2871d2a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_light.exr using Guid(0d345d9669cf0ee4ab097a2871d2a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deece875c38e59037b78a4fb2dd0bec') in 0.024120 seconds 
+  Import took 0.027550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(df4828a7778d2e0419350647efe5bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_dir.png using Guid(df4828a7778d2e0419350647efe5bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf478fd53ddfba7a0ae8c4575e25b175') in 0.031478 seconds 
+  Import took 0.051386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(d8aa27a5cc542e64a866e15a66c215fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_shadowmask.png using Guid(d8aa27a5cc542e64a866e15a66c215fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986fa287c60ac356a5d0ca1c986a7112') in 0.044666 seconds 
+  Import took 0.049182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(3d156b3f147ccc64184d59ab1ea838d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_shadowmask.png using Guid(3d156b3f147ccc64184d59ab1ea838d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61312521427ac1d9827bcd3fd5bb9e62') in 0.023900 seconds 
+  Import took 0.027460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_dir.png
+  artifactKey: Guid(956b1e195a1b1454cb14b37c71337cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_dir.png using Guid(956b1e195a1b1454cb14b37c71337cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1f086c52cffaf21f78671ac605799') in 0.035493 seconds 
+  Import took 0.039121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(62d6e8b1c0cc02e43b523c2d3ed432d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-0_comp_dir.png using Guid(62d6e8b1c0cc02e43b523c2d3ed432d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945045ff5c8e1eb6f4808e9c7e05c97f') in 0.022644 seconds 
+  Import took 0.026391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(c4ee5dfe2feb7b64982263ef85870bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-3_comp_shadowmask.png using Guid(c4ee5dfe2feb7b64982263ef85870bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bf35cc88710e6e3dc2be5c5dc29692') in 0.022787 seconds 
+  Import took 0.026198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f99962964a4542d43b9027e1c10b4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-2_comp_light.exr using Guid(f99962964a4542d43b9027e1c10b4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7036449827eec64da39cba5b56d5d812') in 0.022886 seconds 
+  Import took 0.026576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(d4f8f3ce2ab2243408ed1a1891d04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Scene/Demo/Lightmap-1_comp_light.exr using Guid(d4f8f3ce2ab2243408ed1a1891d04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ff1efbcaa294c4e0ad0bfe2c7ea217') in 0.031977 seconds 
+  Import took 0.039432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.365532 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2 Oak Variant.prefab
+  artifactKey: Guid(a07dffe36c92aec44a95c900438af993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2 Oak Variant.prefab using Guid(a07dffe36c92aec44a95c900438af993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613ac7ff0a12f0d4c075e07adddc5869') in 0.565387 seconds 
+  Import took 0.574106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Drawers/Vase.prefab
+  artifactKey: Guid(2fec7c553d7825f4d8ed5bfae78a437c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Drawers/Vase.prefab using Guid(2fec7c553d7825f4d8ed5bfae78a437c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a56ee8d918d5c8c9182e4fc1cb5e6a5') in 0.083414 seconds 
+  Import took 0.087737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2.prefab
+  artifactKey: Guid(c492efe3e037d4447923edc38633bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2.prefab using Guid(c492efe3e037d4447923edc38633bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6465163c44054c0a7f0128938938266') in 0.100484 seconds 
+  Import took 0.108217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.666358 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b328460b7bd3dc6ce125d9aa07380494') in 0.005578 seconds 
+  Import took 0.009218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1214.336682 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(105212dd26e82e741b5acecfaec9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(105212dd26e82e741b5acecfaec9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfd3452bd4cb4351e4096b66b9ee201') in 0.012058 seconds 
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.824449 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011828 seconds 
+  Import took 0.015668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.513749 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(7263a4cb49043a14dad13674a21ea6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(7263a4cb49043a14dad13674a21ea6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c472e0b4ea9cf1bcc9f92bc5eaa09d') in 0.005190 seconds 
+  Import took 0.009174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.032743 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(53f81718f3abf5141a0507cda89d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(53f81718f3abf5141a0507cda89d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0259c178fefcf85f3f050a224752ea0') in 0.054188 seconds 
+  Import took 0.059353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 474.924552 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(5d04d47f6e1bbd94cacc056b9ee2909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(5d04d47f6e1bbd94cacc056b9ee2909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49514c0f372b11a9102bb41539a5cc9e') in 0.024786 seconds 
+  Import took 0.028885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.470159 seconds.
+  path: Assets/Materials/Black_Mat.mat
+  artifactKey: Guid(5d04d47f6e1bbd94cacc056b9ee2909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black_Mat.mat using Guid(5d04d47f6e1bbd94cacc056b9ee2909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56da5e218c96c7af8634714eedba02d') in 0.062082 seconds 
+  Import took 0.078109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.936964 seconds.
+  path: Assets/Materials/GlowingWhite_Mat.mat
+  artifactKey: Guid(53f81718f3abf5141a0507cda89d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GlowingWhite_Mat.mat using Guid(53f81718f3abf5141a0507cda89d1de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9467c94c409014581fe9c810e3386d7f') in 0.045779 seconds 
+  Import took 0.049925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 402.199799 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bee455014d80bb2ec5a33ce1931889a') in 0.011453 seconds 
+  Import took 0.015888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.793825 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair Variant.prefab
+  artifactKey: Guid(e302621f2616c4042b0c4be3f63ea422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair Variant.prefab using Guid(e302621f2616c4042b0c4be3f63ea422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58758fc061e85a3ceca9e7f2bcc8367') in 0.186613 seconds 
+  Import took 0.191389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Stool.prefab
+  artifactKey: Guid(30971ea7d19a057458bf89e85d9d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Stool.prefab using Guid(30971ea7d19a057458bf89e85d9d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d4c00cf7b65f4071d03a8c7ae4d7d') in 0.361080 seconds 
+  Import took 0.366036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair.prefab
+  artifactKey: Guid(dc35c61ecac9f3e4ea7e96c2ce7f1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair.prefab using Guid(dc35c61ecac9f3e4ea7e96c2ce7f1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d700c5a21422bf9d175364cddf16c6') in 0.051321 seconds 
+  Import took 0.056049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.924787 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Control Panel
+  artifactKey: Guid(46732ac7b20e1224aa067f5ccd689b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Control Panel using Guid(46732ac7b20e1224aa067f5ccd689b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57de81a04f9b9f20caefe46359752b') in 0.014314 seconds 
+  Import took 0.017826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331895 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment
+  artifactKey: Guid(939e707ca5f42034dba059de19750acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment using Guid(939e707ca5f42034dba059de19750acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dce756a3c7b26a7c41d19d69dcbe3e') in 0.011550 seconds 
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.529149 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground
+  artifactKey: Guid(29cc3f6412ad79f4c85cb4da48a86fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground using Guid(29cc3f6412ad79f4c85cb4da48a86fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d165c5537d27650008e80aaed71e31') in 0.011614 seconds 
+  Import took 0.015016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339387 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights
+  artifactKey: Guid(e8c0c129c8393ff4fa384653205ff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Lights using Guid(e8c0c129c8393ff4fa384653205ff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f123ef0991e38c9edc7c426d3a8047') in 0.023207 seconds 
+  Import took 0.027153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329190 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set
+  artifactKey: Guid(74db323cd41b497449a5965b4b718496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Table texture set using Guid(74db323cd41b497449a5965b4b718496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b513a90d56730a9ff706ec4f158c35') in 0.011308 seconds 
+  Import took 0.015041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555940 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware
+  artifactKey: Guid(6fda81a742391274da7288a7d5c7bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Techware using Guid(6fda81a742391274da7288a7d5c7bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbf72e8f3bf7a47a54057d49656af0e') in 0.011336 seconds 
+  Import took 0.014936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581557 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture
+  artifactKey: Guid(0a205c6927740eb42a02d26b85e137f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Wall texture using Guid(0a205c6927740eb42a02d26b85e137f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc23800b3f72924e0dae5064b55b3e33') in 0.011738 seconds 
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.757537 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor
+  artifactKey: Guid(bb029fef9be3cb2459b57807a0a8e30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor using Guid(bb029fef9be3cb2459b57807a0a8e30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c31fb56b6b48a5450e550b6dca1929') in 0.021674 seconds 
+  Import took 0.062968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892034 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints
+  artifactKey: Guid(2093c4f15a18a684b982d2786516747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Epoxy Paints using Guid(2093c4f15a18a684b982d2786516747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac284f0e8d12eccd444216ee397fcb6') in 0.011335 seconds 
+  Import took 0.014956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601647 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet
+  artifactKey: Guid(b207a947c2a0dc6429df5f2224cb6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Carpet using Guid(b207a947c2a0dc6429df5f2224cb6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da578116c1f8fdd5ada8ee97ba63dcd3') in 0.013096 seconds 
+  Import took 0.022792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.168131 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished AO.tif
+  artifactKey: Guid(e92c13783227ca1449913b04ddb4a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished AO.tif using Guid(e92c13783227ca1449913b04ddb4a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a9581478370be4e301ed490881fe12') in 0.047614 seconds 
+  Import took 0.061342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Normal.tif
+  artifactKey: Guid(c3752625dca7f56418c9919387d517d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Normal.tif using Guid(c3752625dca7f56418c9919387d517d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dc39b0d0ae59dba38ca2e1b04467ba') in 0.045271 seconds 
+  Import took 0.048780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif
+  artifactKey: Guid(54b840e77016e554886373dfb21ea6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Height.tif using Guid(54b840e77016e554886373dfb21ea6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43839bf7a100f746e3eaa54ab36bac6f') in 0.022509 seconds 
+  Import took 0.025954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Diffuse.tif
+  artifactKey: Guid(b27a20be7783b354d93457a62c7cebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Diffuse.tif using Guid(b27a20be7783b354d93457a62c7cebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4fa5260769ee6705d720ffd060fed7') in 0.022315 seconds 
+  Import took 0.025677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Roughness.tif
+  artifactKey: Guid(482dcfb8e9ee8e247849422351011aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Textures/Environment/Ground/Concrete Floor/Concrete Floor Polished Roughness.tif using Guid(482dcfb8e9ee8e247849422351011aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0295f07ad3dd8f543411d3e375ae0946') in 0.029018 seconds 
+  Import took 0.033240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.928900 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Chair set
+  artifactKey: Guid(5e681572bd68ae643a86211473405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Chair set using Guid(5e681572bd68ae643a86211473405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a5bb061c89e0324bb0e9fa939b8b2b') in 0.011534 seconds 
+  Import took 0.015124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.242697 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy
+  artifactKey: Guid(03dc28fe3381ea143a039a38e3c19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Epoxy using Guid(03dc28fe3381ea143a039a38e3c19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1aa4614275dab14634c49a5c210e00') in 0.012416 seconds 
+  Import took 0.016869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.125148 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete
+  artifactKey: Guid(75c98c2e268d7094196d68eff4d58245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete using Guid(75c98c2e268d7094196d68eff4d58245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348242988e2699027f3e523e3820c5ad') in 0.014529 seconds 
+  Import took 0.018995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075215 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete/Concrete Ground 20m.mat
+  artifactKey: Guid(9de4200706addc14b9e60ffb7b15caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Ground Mats/Concrete/Concrete Ground 20m.mat using Guid(9de4200706addc14b9e60ffb7b15caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7dda40f176162510a387483b71d23e') in 0.040016 seconds 
+  Import took 0.045331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.291678 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Lights
+  artifactKey: Guid(e226d01879c70304fbe8d09500c502de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Lights using Guid(e226d01879c70304fbe8d09500c502de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22017deb6f5f5ca8cba9368cc791dc93') in 0.005900 seconds 
+  Import took 0.010957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530266 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Techware
+  artifactKey: Guid(de7e176360f5d3f46939fe24decf56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Techware using Guid(de7e176360f5d3f46939fe24decf56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ff79c73dac908b5843153c8bfc1bb') in 0.004929 seconds 
+  Import took 0.008606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509333 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Walls
+  artifactKey: Guid(42271e72c3d763e43a545d49bf970f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Walls using Guid(42271e72c3d763e43a545d49bf970f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d2e202edadd5e87dbf16264f75d25e') in 0.006950 seconds 
+  Import took 0.011327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165596 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 1 T1.mat
+  artifactKey: Guid(f88206340a69fea4eb7337be27aa7c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 1 T1.mat using Guid(f88206340a69fea4eb7337be27aa7c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80f12e90262afe1e4bd598cd6240cf1') in 0.104453 seconds 
+  Import took 0.115677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 2.mat
+  artifactKey: Guid(d5cc09dab19ed284995c560c17d04f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 2.mat using Guid(d5cc09dab19ed284995c560c17d04f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d60ac93e5daa8d40edd7fcbd61bd4a4') in 0.111355 seconds 
+  Import took 0.119871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 2 Glass.mat
+  artifactKey: Guid(cf9108e24a9e64f4c808b61db1329145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Meshes/Materials/Walls/Wall Set 2 Glass.mat using Guid(cf9108e24a9e64f4c808b61db1329145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111d148fc3914bb71916df4d01cfcbc8') in 0.100752 seconds 
+  Import took 0.113545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.183667 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/TVs/Tv 32 Inch.prefab
+  artifactKey: Guid(fe19f183652f0434dba515f0a67f32fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/TVs/Tv 32 Inch.prefab using Guid(fe19f183652f0434dba515f0a67f32fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8577c2eb3bae1b3d8c8fcda9f5d4d8db') in 0.365138 seconds 
+  Import took 0.370392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.745033 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Dark Oak.prefab
+  artifactKey: Guid(45276250b71dd9f4488e3be0523a1e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Dark Oak.prefab using Guid(45276250b71dd9f4488e3be0523a1e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868e37d7733eede7e7453fe4efc332d0') in 0.099155 seconds 
+  Import took 0.110031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Grey Wood Variant.prefab
+  artifactKey: Guid(827062553953ace449df65073bc88caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Grey Wood Variant.prefab using Guid(827062553953ace449df65073bc88caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1905a65390bb706dbd43e25500ff2af') in 0.157748 seconds 
+  Import took 0.168595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.442281 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights
+  artifactKey: Guid(cb13d5c41d29ceb438aaf360d2ca91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights using Guid(cb13d5c41d29ceb438aaf360d2ca91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83a722defc27841378a0230822f06f2') in 0.035848 seconds 
+  Import took 0.042429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.082392 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D
+  artifactKey: Guid(a966283a628910941b403a29a841155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D using Guid(a966283a628910941b403a29a841155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da139d171a5f60658061d41428dbbaa') in 0.011020 seconds 
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360234 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light Bright.prefab
+  artifactKey: Guid(ddfc1292959bce64f8c5c758157712f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light Bright.prefab using Guid(ddfc1292959bce64f8c5c758157712f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a0c1448604613ba1a0a064c820fd9f') in 0.042837 seconds 
+  Import took 0.047712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light.prefab
+  artifactKey: Guid(ebb3c85b58baeef44825d9dcc11dc781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light.prefab using Guid(ebb3c85b58baeef44825d9dcc11dc781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b0446295fa6eccf4f77a8aba9e6bab') in 0.083531 seconds 
+  Import took 0.087739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.941528 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efe4e03a471574dec88650677d59d41') in 0.007476 seconds 
+  Import took 0.011730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1071.647718 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f811a2c995bc8096aa4d2b34ebf8ad04') in 0.007868 seconds 
+  Import took 0.012000 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at StarterAssets.PackageChecker.CheckPackage () [0x001c2] in C:\Users\lucas\OneDrive\Documentos\GitHub\REALVI Scape Room\Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs:105 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3588ms)
+		BeginReloadAssembly (444ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (173ms)
+		EndReloadAssembly (2830ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1109ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (154ms)
+			SetupLoadedEditorAssemblies (973ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (534ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(4075725b42343494dae837a8144df3b2) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputControlPathDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(15eaf34440a14edf94d5a0a00cbded20) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NumberHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(d4a408a1b506d0046875061c677944d8) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTrackedDollyEditor.cs") state(2)
+Script is not up to date after domain reload: guid(8f99eea29fb7e4f7a9c7aad1730f329a) path("Packages/com.unity.inputsystem/InputSystem/Utilities/OneOrMore.cs") state(2)
+Script is not up to date after domain reload: guid(47e42d28cda46b34cb7f8804e6db4c25) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/BaseInputOverride.cs") state(2)
+Script is not up to date after domain reload: guid(62899f850307741f2a39c98a8b639597) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInput.cs") state(2)
+Script is not up to date after domain reload: guid(72251f49d44478b4c93462938d7ce4cf) path("Packages/com.unity.inputsystem/InputSystem/Controls/DoubleControl.cs") state(2)
+Script is not up to date after domain reload: guid(2d37e5385efd7064cb1d54c94960acae) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePath.cs") state(2)
+Script is not up to date after domain reload: guid(449ef5ebbe24720439ec31d15f7b6f3d) path("Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachineVolumeSettings.cs") state(2)
+Script is not up to date after domain reload: guid(34e7ea3151ed73745b7924e453c67eca) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/NavigationModel.cs") state(2)
+Script is not up to date after domain reload: guid(2643ac9881a89594a80c242b565b34ec) path("Packages/com.unity.cinemachine/Runtime/Core/ICinemachineCamera.cs") state(2)
+Script is not up to date after domain reload: guid(864a08de8a08473ebf82029d80696449) path("Packages/com.unity.inputsystem/InputSystem/Devices/Keyboard.cs") state(2)
+Script is not up to date after domain reload: guid(6982a6ffcdbf47a6aa68fd4418622395) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/IDualMotorRumble.cs") state(2)
+Script is not up to date after domain reload: guid(644895dd25f14937a1d11481e2338925) path("Packages/com.unity.inputsystem/InputSystem/Devices/Gamepad.cs") state(2)
+Script is not up to date after domain reload: guid(b24da9e286b594ace8ec4dfd4a374780) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/InputValue.cs") state(2)
+Script is not up to date after domain reload: guid(b56f2475416eeea4c916add2d7268ad1) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseSourceEditor.cs") state(2)
+Script is not up to date after domain reload: guid(10e6f8c815d3c4d45b1d98b951d53912) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineDebug.cs") state(2)
+Script is not up to date after domain reload: guid(6a0472cd31396f741969b8c1af8dd5a0) path("Packages/com.unity.cinemachine/Runtime/Core/UnityVectorExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(c5d95ccadebafc84b8226853d987217d) path("Packages/com.unity.cinemachine/Editor/Helpers/CinemachineTriggerActionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(57744762d9079934292f57896d8193e0) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineExternalCamera.cs") state(2)
+Script is not up to date after domain reload: guid(b1a97a2b5515f5d49977e7e8add5b7a9) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseDefinitionPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(f5899dcacd4e3004eaa9107c97e75e09) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayoutChange.cs") state(2)
+Script is not up to date after domain reload: guid(bb4d45fbf0aa84484b251242fdb21800) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamIGAConverter.cs") state(2)
+Script is not up to date after domain reload: guid(7d0d800d47186f0468d962ccf338ab97) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/NoiseSettingsPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(6f91aa063fcc645ea8061ce0ae4f6f2b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(0a3e3635b85e2124b9b3147aef1cdc32) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputControllerWindows.cs") state(2)
+Script is not up to date after domain reload: guid(c5da6ce9225f948438f7d6a072499ecd) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineGroupComposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a10a64abdfd8f6340a5b6b54bf28812a) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryCanRunInBackground.cs") state(2)
+Script is not up to date after domain reload: guid(a1284e66e3be9424db2c22a37b5a3cf0) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(76d591911f4ae4f62953b13f6ff50429) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs") state(2)
+Script is not up to date after domain reload: guid(2158c2dfcbb94a3092caa77d698d5010) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/InputDeviceCommand.cs") state(2)
+Script is not up to date after domain reload: guid(319d2fe34a804e245819465c9505ea59) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFreeLook.cs") state(2)
+Script is not up to date after domain reload: guid(e46ac8d61dc065848bd5a1aa7cd8c006) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineTriggerAction.cs") state(2)
+Script is not up to date after domain reload: guid(6633b33d60f14b81927d89a4b06c8a1f) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateBuffers.cs") state(2)
+Script is not up to date after domain reload: guid(6e6d0cbdd012f434392878fdc293f974) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryEnabledStateCommand.cs") state(2)
+Script is not up to date after domain reload: guid(7c6a2891083312645a7be416176261c1) path("Packages/com.unity.inputsystem/InputSystem/Utilities/CSharpCodeHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(760fac1b814a4d99a4fc534934e4dc99) path("Packages/com.unity.inputsystem/InputSystem/Utilities/MemoryHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(ae42a3986cf84fe2aa1df4aa984dd806) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDDescriptorWindow.cs") state(2)
+Script is not up to date after domain reload: guid(98a0df93c82e4369b500b62affa160db) path("Packages/com.unity.inputsystem/InputSystem/Utilities/InlinedArray.cs") state(2)
+Script is not up to date after domain reload: guid(9cd1a769fbb1d1c47b4c22a04a64fa5f) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineCollisionImpulseSourceEditor.cs") state(2)
+Script is not up to date after domain reload: guid(9e082355c53c54d19a09c1d4f7629360) path("Packages/com.unity.inputsystem/InputSystem/Utilities/JsonParser.cs") state(2)
+Script is not up to date after domain reload: guid(aa489f950f62d2948a1d96092e5a708a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/UISupport.cs") state(2)
+Script is not up to date after domain reload: guid(c63cb4cb8e3e82c4f8bfa7516da4f2b5) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseListenerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6ae082cf4f6634e9d8cdd8526dd816a3) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeVector2Processor.cs") state(2)
+Script is not up to date after domain reload: guid(44d70cc20219cd84593f67d248eafe36) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCameraOffset.cs") state(2)
+Script is not up to date after domain reload: guid(86b230bdbb8ce487882861a17e6d2bde) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerJoinBehavior.cs") state(2)
+Script is not up to date after domain reload: guid(d9ce7842660d4bf89a86f378ecffb8f1) path("Packages/com.unity.inputsystem/InputSystem/Events/StateEvent.cs") state(2)
+Script is not up to date after domain reload: guid(72dd2bf74735a46be8891fde502f792c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/EditorPlayerSettingHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(2fe2cf22711ac4db3b094a955603f8bd) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/CallbackDataSource.cs") state(2)
+Script is not up to date after domain reload: guid(ba025c1c816ba7c42a1d28f1cefb9c66) path("Packages/com.unity.inputsystem/InputSystem/IInputDiagnostics.cs") state(2)
+Script is not up to date after domain reload: guid(7ae2dc3fc1c44ea59667819ea1d2e0c5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputController.cs") state(2)
+Script is not up to date after domain reload: guid(33c4f889206d84e84b124cc6f7367963) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserPairingOptions.cs") state(2)
+Script is not up to date after domain reload: guid(8404be70184654265930450def6a9037) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs") state(2)
+Script is not up to date after domain reload: guid(76765a8c5cba74c0abc5ab4afd8266e2) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserAccountHandle.cs") state(2)
+Script is not up to date after domain reload: guid(b5256e0d1ebecc84d98a4001ab63d5b8) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayoutAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(1659bf437d849824999b2b9ae9e1518b) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QuerySamplingFrequencyCommand.cs") state(2)
+Script is not up to date after domain reload: guid(e501d18bb52cf8c40b1853ca4904654f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCollider.cs") state(2)
+Script is not up to date after domain reload: guid(0fb454a124e8649bb9326261b1739032) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownDataSource.cs") state(2)
+Script is not up to date after domain reload: guid(bf34fbe7a6e71634493d770ed0031f9d) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineColliderEditor.cs") state(2)
+Script is not up to date after domain reload: guid(bb7aebed4ffd404da3399f60b272c7ee) path("Packages/com.unity.inputsystem/InputSystem/Devices/IInputUpdateCallbackReceiver.cs") state(2)
+Script is not up to date after domain reload: guid(6109a857ac56b4017b44b06a9de0f827) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownGUI.cs") state(2)
+Script is not up to date after domain reload: guid(57baee20e53f7b54782519af44a9468f) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/EmbeddedAssetPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(caf772fd9b5b4840b7b0014d0616290d) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventPtr.cs") state(2)
+Script is not up to date after domain reload: guid(a73149a4b6c41d741bc5e4e3b7711c0d) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachinePathBase.cs") state(2)
+Script is not up to date after domain reload: guid(aceb1a3f85f55c249bba6eaade29f2aa) path("Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs") state(2)
+Script is not up to date after domain reload: guid(99a9c787e5d1bbf48a389834c4a9641c) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineDollyCart.cs") state(2)
+Script is not up to date after domain reload: guid(36baaa8bdcb9d8b49b9199833965d2c3) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlenderSettings.cs") state(2)
+Script is not up to date after domain reload: guid(dbce6ac3ce95e4e28af8b2212171619a) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/CompensateDirectionProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(61fdc882d66f0f34d90450c001c0078e) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/AxisComposite.cs") state(2)
+Script is not up to date after domain reload: guid(8806f46699a44c39a6a66c5d07772871) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HID.cs") state(2)
+Script is not up to date after domain reload: guid(60f36b88774fb4ed685661de123d7449) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/TreeViewHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(87edaa385191f4e43ac1e2831a02159f) path("Packages/com.unity.cinemachine/Editor/Utility/CinemachineLensPresets.cs") state(2)
+Script is not up to date after domain reload: guid(ade00164ed474391ba591b362f77149f) path("Packages/com.unity.inputsystem/InputSystem/Devices/Touchscreen.cs") state(2)
+Script is not up to date after domain reload: guid(5c6284fecb53e48ee832bc14c64be6fb) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryPairedUserAccountCommand.cs") state(2)
+Script is not up to date after domain reload: guid(bd166cb4f7947a8498e7ad07a9c04294) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionRebindingExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(c46ed0dd23ba548fd87436e8c89334e9) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownWindow.cs") state(2)
+Script is not up to date after domain reload: guid(8b5bc678fe5c44624a0f00e148fc2670) path("Packages/com.unity.inputsystem/InputSystem/Devices/ITextInputReceiver.cs") state(2)
+Script is not up to date after domain reload: guid(eb25eb9c85a88c94aa253071e03aca6e) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseManager.cs") state(2)
+Script is not up to date after domain reload: guid(0c8442e8094ce974598eacc0302ddabb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidSupport.cs") state(2)
+Script is not up to date after domain reload: guid(5a2515c58b39ea24c8154ebc84f7c157) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlLayout.cs") state(2)
+Script is not up to date after domain reload: guid(3f04ed13d477436fa6a48ff5d0d46d8c) path("Packages/com.unity.inputsystem/InputSystem/Utilities/Substring.cs") state(2)
+Script is not up to date after domain reload: guid(d30409ab90458e5409807c8b0274ac9c) path("Packages/com.unity.cinemachine/Editor/Utility/EmbeddedAssetHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(decf522e52f74f9e80b4dc87986cca70) path("Packages/com.unity.inputsystem/InputSystem/InputUpdateType.cs") state(2)
+Script is not up to date after domain reload: guid(137fce2acc78adb45b30ac59c3b89b11) path("Packages/com.unity.cinemachine/Editor/Editors/Cinemachine3rdPersonFollowEditor.cs") state(2)
+Script is not up to date after domain reload: guid(d806525c0444400588f5a7800297b7b5) path("Packages/com.unity.inputsystem/InputSystem/Devices/Pointer.cs") state(2)
+Script is not up to date after domain reload: guid(eb55afc2c109f42f2af37941a8c9300e) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionEditorWindow.cs") state(2)
+Script is not up to date after domain reload: guid(929bef69d71fe4223b4148865a0a5e42) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/GenericXRDevice.cs") state(2)
+Script is not up to date after domain reload: guid(7eca76cf669745feb0c71655dbad352f) path("Packages/com.unity.inputsystem/InputSystem/Utilities/TypeHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(df88ce51eaa14f2f8975023f7f45d2d9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockGamepad.cs") state(2)
+Script is not up to date after domain reload: guid(49207568c569440f97a5bfe8b4144a16) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBinding.cs") state(2)
+Script is not up to date after domain reload: guid(729aad4491e915a41bda2b8325cf757a) path("Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachinePostProcessing.cs") state(2)
+Script is not up to date after domain reload: guid(ab2c7c4773181604f9b207518e96ca1b) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateChangeMonitor.cs") state(2)
+Script is not up to date after domain reload: guid(a9e63e62da42ce141b35602019323584) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineStoryboardEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6247927155f224aa5a61c15611fcd34a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputManagerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(9384ab8608cdc3d479fe89cd51eed48f) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineOrbitalTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(9a53087ba28aaf145a184ea363108831) path("Packages/com.unity.cinemachine/Runtime/Core/ICinemachineComponent.cs") state(2)
+Script is not up to date after domain reload: guid(c632b886b4d04e6b856720556b399ffe) path("Packages/com.unity.inputsystem/InputSystem/Events/DeltaStateEvent.cs") state(2)
+Script is not up to date after domain reload: guid(8db8d3ba38ef23344baee4d941ad534f) path("Packages/com.unity.cinemachine/Tests/Runtime/RuntimeExampleTest.cs") state(2)
+Script is not up to date after domain reload: guid(a3882f27ee264cbfaa87fbdceacfcea1) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputEventTreeView.cs") state(2)
+Script is not up to date after domain reload: guid(1186b8795dc3fc84e8ec53bd314d8e91) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachinePOVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(b2f73bdc979030e419f33c10913639cc) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineComponentBase.cs") state(2)
+Script is not up to date after domain reload: guid(4e9c0b68df9234a0bad68ad7e0391330) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/Vector2Composite.cs") state(2)
+Script is not up to date after domain reload: guid(96d7b220d8769944f9aca48b3218daaa) path("Packages/com.unity.inputsystem/Tests/IntegrationTests/IntegrationTests.cs") state(2)
+Script is not up to date after domain reload: guid(84e410cdded84dd3971c9dbe94605503) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(6ef7b744d03d44f2a82c38ac2f25b21f) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/CompensateRotationProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(74405005f3013c2498103a79211ba93b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenSupport.cs") state(2)
+Script is not up to date after domain reload: guid(6873ac51fc9d6dc4dbb6d9dc77a5eb49) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/SetIMECursorPositionCommand.cs") state(2)
+Script is not up to date after domain reload: guid(e78bab4d8055a47fd933966a032e34ef) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLGamepad.cs") state(2)
+Script is not up to date after domain reload: guid(72ece51f2901e7445ab60da3685d6b5f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs") state(2)
+Script is not up to date after domain reload: guid(5778d22ca832d9f47b5e73a8c5fe78a2) path("Packages/com.unity.cinemachine/Runtime/Core/LensSettings.cs") state(2)
+Script is not up to date after domain reload: guid(f34e35dc1dc67c54c841b728548d69cc) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ce150b9c1acd40e0a087ca3f3257831d) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlPath.cs") state(2)
+Script is not up to date after domain reload: guid(8a2cdc9fdde66bb49afa0763a7557ff9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/OpenVR.cs") state(2)
+Script is not up to date after domain reload: guid(3da49be2d645b418c8ee308bb1a011c7) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Linux/LinuxSupport.cs") state(2)
+Script is not up to date after domain reload: guid(a2fba25a5cd15594e8f050a11e386c80) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineConfiner.cs") state(2)
+Script is not up to date after domain reload: guid(a4c41ac9245b87c4192012080077d830) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineSameAsFollowTarget.cs") state(2)
+Script is not up to date after domain reload: guid(0c43a6876f1eb4fdf8b9dc2fee926776) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionProperty.cs") state(2)
+Script is not up to date after domain reload: guid(b0e29a3b2e6d01345abeaefb681b5f22) path("Packages/com.unity.inputsystem/InputSystem/Plugins/iOS/IOSGameController.cs") state(2)
+Script is not up to date after domain reload: guid(44353112a58c73347adde914844b7642) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/GoogleVR.cs") state(2)
+Script is not up to date after domain reload: guid(7bef150b341c4d0dbab3db81ccf2ea81) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamSupport.cs") state(2)
+Script is not up to date after domain reload: guid(3cf42e49077e442fd8b9dc29c328d345) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/EnhancedTouchSupport.cs") state(2)
+Script is not up to date after domain reload: guid(8d76c8b08c287594c9bf5d6c70fb8699) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/EnableDeviceCommand.cs") state(2)
+Script is not up to date after domain reload: guid(46f02abeca624ce68874afdbb77c9be0) path("Packages/com.unity.inputsystem/InputSystem/InputManager.cs") state(2)
+Script is not up to date after domain reload: guid(2a15a1e455bcc7543872f50762449739) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineScreenComposerGuides.cs") state(2)
+Script is not up to date after domain reload: guid(b00a605ae58d438baf0b80388b377972) path("Packages/com.unity.inputsystem/InputSystem/Controls/DpadControl.cs") state(2)
+Script is not up to date after domain reload: guid(d4a83784946017a4182f41a54d468481) path("Packages/com.unity.inputsystem/InputSystem/Devices/TrackedDevice.cs") state(2)
+Script is not up to date after domain reload: guid(7938861606c2845d19cf2e8a683ddba3) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertVector3Processor.cs") state(2)
+Script is not up to date after domain reload: guid(be817a1286f201845b5c36ae9afe9e35) path("Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewVirtualCamera.cs") state(2)
+Script is not up to date after domain reload: guid(45e653bab7fb20e499bda25e1b646fea) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs") state(2)
+Script is not up to date after domain reload: guid(74d8c4d6e5d0338469ae46c13725f3ce) path("Packages/com.unity.cinemachine/Editor/Windows/CinemachineSettings.cs") state(2)
+Script is not up to date after domain reload: guid(211d719bb25901043833928f50e9d0ea) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs") state(2)
+Script is not up to date after domain reload: guid(2539bd7bca18c47e5a76ad1471ed6829) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(9e0ea5a9f932f6541962b1bf7934f7c3) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/EnableIMECompositionCommand.cs") state(2)
+Script is not up to date after domain reload: guid(d62f748f5292bb343be9e6b0c84416d9) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineClearShot.cs") state(2)
+Script is not up to date after domain reload: guid(a63f9f2267c36684e855add13ad5499f) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(af015677ecab4644b2382c6b37c2d95c) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceChange.cs") state(2)
+Script is not up to date after domain reload: guid(3f7c779802a73d5448e38af7c39fbaa5) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineConfinerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(f07d0a558a2d4f5c885936a3a1219008) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(c79fd316c31a2402692c908865404608) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(92ae37f8da4c25141a0c43e136275e46) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenControl.cs") state(2)
+Script is not up to date after domain reload: guid(3afbef7bebf197d43b2352b971a4e15f) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/SlowTapInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(073f4378d59364199ae19d0486842726) path("Packages/com.unity.inputsystem/Tests/TestFixture/InputTestRuntime.cs") state(2)
+Script is not up to date after domain reload: guid(8986fa27e90db314d8a3359520e7fd1a) path("Packages/com.unity.cinemachine/Editor/Utility/ReflectionHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(ac0b09e7857660247b1477e93731de29) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs") state(2)
+Script is not up to date after domain reload: guid(681942113a3d6460a90af134a86edb78) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleVector3Processor.cs") state(2)
+Script is not up to date after domain reload: guid(68e8070c85d3c4544a527f58641b95c0) path("Packages/com.unity.inputsystem/InputSystem/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(1e8b78ac948f05a46a6d8339a503172b) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLookAt.cs") state(2)
+Script is not up to date after domain reload: guid(12a60b3365a7d424cbc3f935bd1ed799) path("Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachineVolumeSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(550c4f473d16e49cf9f2e5c45be4490d) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(b21f8c6bf1fd94d1fb47907209b23367) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionType.cs") state(2)
+Script is not up to date after domain reload: guid(4313a2cc2049411789348ff4c952d89c) path("Packages/com.unity.inputsystem/InputSystem/Events/DeviceConfigurationEvent.cs") state(2)
+Script is not up to date after domain reload: guid(0dd5cd31dc0a44e8979c69bd6ef78686) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XInputSupport.cs") state(2)
+Script is not up to date after domain reload: guid(e1ad7c41319cc470d8ae996688c56e79) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionMapDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(a9be5e04bc92741ccbe2c262bfaa517f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/XRSupport.cs") state(2)
+Script is not up to date after domain reload: guid(9e1e1ebbe5ff04f03bf06ab5398454cf) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionEditorToolbar.cs") state(2)
+Script is not up to date after domain reload: guid(a625f902f77154d94aa57ae7872317ac) path("Packages/com.unity.inputsystem/InputSystem/IInputRuntime.cs") state(2)
+Script is not up to date after domain reload: guid(ff1bc3762d8741ff8f40d54da690efb1) path("Packages/com.unity.inputsystem/InputSystem/Utilities/FourCC.cs") state(2)
+Script is not up to date after domain reload: guid(a327bafe91572467f834d0435da166fb) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/StickDeadzoneProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(c2339479d3a44fcb902e62c60f0a05af) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/IInputDeviceCommandInfo.cs") state(2)
+Script is not up to date after domain reload: guid(98406e6253bf4ccba72ff32ee85f5efa) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceDescription.cs") state(2)
+Script is not up to date after domain reload: guid(fb7194dc27b9df64c8beca7482ee8e0d) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineInputProvider.cs") state(2)
+Script is not up to date after domain reload: guid(6887ac562f464a329bc468158dbbf18f) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ClampProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(543792e79adf14478b4a00527bbefce1) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlList.cs") state(2)
+Script is not up to date after domain reload: guid(eb8e037cb3f873743a725427c8c22342) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTargetGroupEditor.cs") state(2)
+Script is not up to date after domain reload: guid(05acc715f855ced458d76ee6f8ac6c61) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineTrack.cs") state(2)
+Script is not up to date after domain reload: guid(a1728508674789b4e8539a2ad08ebc3f) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannels.cs") state(2)
+Script is not up to date after domain reload: guid(e8df62e96c8524c2a89b7af40ee100e9) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(81128cc364d234170845119461c41970) path("Packages/com.unity.inputsystem/Tests/TestFixture/InputTestFixture.cs") state(2)
+Script is not up to date after domain reload: guid(aad56faafe6d9d3458c93a9e43759461) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/DisableDeviceCommand.cs") state(2)
+Script is not up to date after domain reload: guid(bd6043bde05a7fc4cba197d06915c1e3) path("Packages/com.unity.cinemachine/Runtime/Components/Cinemachine3rdPersonFollow.cs") state(2)
+Script is not up to date after domain reload: guid(c2732a66825034f739cb072c49aa8990) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/MultiTapInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(a85130d4e1e5b49878f8f51b2d4e0ded) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionCodeGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(cebc3fe47a919524eb4a977f726a484e) path("Packages/com.unity.cinemachine/Runtime/Core/SignalSourceAsset.cs") state(2)
+Script is not up to date after domain reload: guid(e44b92e217bfdf24d99acb4344918eeb) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLockToTargetEditor.cs") state(2)
+Script is not up to date after domain reload: guid(aa58e874cb4143ad884b8da2bb3f0d7a) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputControlTreeView.cs") state(2)
+Script is not up to date after domain reload: guid(caa587f0fb5099040bf6193f93daec5d) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/TapInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(d472007a1b9243feb0043606b73288cd) path("Packages/com.unity.inputsystem/InputSystem/Devices/Mouse.cs") state(2)
+Script is not up to date after domain reload: guid(2c5f144140b7e48d48eb67d2decae17b) path("Packages/com.unity.inputsystem/InputSystem/InputExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(a8d605b1e92964b5b94668b1511799ed) path("Packages/com.unity.inputsystem/InputSystem/State/InputState.cs") state(2)
+Script is not up to date after domain reload: guid(6d54531977ecb194c95e2d3aa7a5d72a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenButton.cs") state(2)
+Script is not up to date after domain reload: guid(2c760cb7073c57e44959f36cbed8ed39) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachinePropertyAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(d717b0e790ee146dd93d1be641984b6a) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ExceptionHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(2ab54adba6d259742a9022c514b04149) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Linux/SDLDeviceBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(180ecf9b41d478f468eb3e9083753217) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseSource.cs") state(2)
+Script is not up to date after domain reload: guid(cd1b3b6848c215f4cba3ace2c38f9bce) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(6bd8ebd167bb9d34cabf0b443f2d1aaa) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/HoldInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(6c26251a3e1f5ac41afa5ffb404c5f71) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineMixingCamera.cs") state(2)
+Script is not up to date after domain reload: guid(00b2d199b96b516448144ab30fb26aed) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseListener.cs") state(2)
+Script is not up to date after domain reload: guid(a8cfbe75f80984c1d9700ef41f6e2aeb) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControlExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(d45ac8148fd4e264eb17df8586b09581) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DynamicBitfield.cs") state(2)
+Script is not up to date after domain reload: guid(0ffbcc8a975d04f12967a085a10aeb7b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NameAndParameters.cs") state(2)
+Script is not up to date after domain reload: guid(15164829aab964eedaee6bac785c2c05) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/ButtonWithOneModifier.cs") state(2)
+Script is not up to date after domain reload: guid(e31057ef324a04478bb4f7d469b3cdc0) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/TouchSimulation.cs") state(2)
+Script is not up to date after domain reload: guid(78dcfd26eada049b0840e276bd029712) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e4a1c749d40b4bf985d6b32d7db339bb) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/DualMotorRumble.cs") state(2)
+Script is not up to date after domain reload: guid(24ec24775a1b45e4ea81ac13002dee32) path("Packages/com.unity.cinemachine/Editor/Utility/SaveDuringPlay.cs") state(2)
+Script is not up to date after domain reload: guid(6bb362cb9a8353d44997049a67efe591) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDeviceMatcher.cs") state(2)
+Script is not up to date after domain reload: guid(4fa53a91a43ae1a4bbf6b29961b45c38) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineExtension.cs") state(2)
+Script is not up to date after domain reload: guid(d295e36fd3cd747f4a2123088241bd6a) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionPropertiesView.cs") state(2)
+Script is not up to date after domain reload: guid(557c6f70a7173744abaa3967b6da6f5d) path("Packages/com.unity.cinemachine/Runtime/Core/AxisState.cs") state(2)
+Script is not up to date after domain reload: guid(c5b4f9c3390c14106a5006fd5d3d3cbe) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionAssetManager.cs") state(2)
+Script is not up to date after domain reload: guid(7182f63b24b00b44bbc83a3491c911e8) path("Packages/com.unity.inputsystem/InputSystem/Editor/EditorInputControlLayoutCache.cs") state(2)
+Script is not up to date after domain reload: guid(854faad156b245d4b50a15e233e9ad55) path("Packages/com.unity.inputsystem/InputSystem/Controls/StickControl.cs") state(2)
+Script is not up to date after domain reload: guid(f0800c72aa1894e478bb749990855f9e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModuleEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e04d6d4984c7d164096e271f20932849) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/PointerModel.cs") state(2)
+Script is not up to date after domain reload: guid(bdf4b325f88d407f9013b427a6b33c58) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateTypeInfo.cs") state(2)
+Script is not up to date after domain reload: guid(15ebf04de67923d41a36c21e1fc63718) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineVirtualCameraBase.cs") state(2)
+Script is not up to date after domain reload: guid(e5a64639c3eeaf5429cee8a5cb3c38d2) path("Packages/com.unity.inputsystem/InputSystem/Editor/InputDiagnostics.cs") state(2)
+Script is not up to date after domain reload: guid(d1166ae938ecb42adaf8c4530372fb2b) path("Packages/com.unity.inputsystem/InputSystem/Events/ActionEvent.cs") state(2)
+Script is not up to date after domain reload: guid(3e9857b4032c493aa79e61db86f9e09b) path("Packages/com.unity.inputsystem/InputSystem/Controls/QuaternionControl.cs") state(2)
+Script is not up to date after domain reload: guid(98590516d066443e58df0deff4a95b21) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(57f4c22a7e71744499d25ed776ef6cf2) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionAssetEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a60d9407e2bb20e4ea00281b1e33eae7) path("Packages/com.unity.cinemachine/Editor/Utility/SerializedPropertyHelper.cs") state(2)
+Script is not up to date after domain reload: guid(b567991935cb6844d9bb65eda22b628f) path("Packages/com.unity.cinemachine/Runtime/Core/RuntimeUtility.cs") state(2)
+Script is not up to date after domain reload: guid(9858d4c8055fd45539a2e86388f7c5ba) path("Packages/com.unity.inputsystem/InputSystem/Editor/DownloadableSample.cs") state(2)
+Script is not up to date after domain reload: guid(c77cd15ef9ca14d3e928d192049c276d) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionChange.cs") state(2)
+Script is not up to date after domain reload: guid(c7225419e3d446c5982afd5ba9cce319) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockGamepadHID.cs") state(2)
+Script is not up to date after domain reload: guid(ccdc5c2ae66744782ab7e326c053ad0a) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateHistory.cs") state(2)
+Script is not up to date after domain reload: guid(a653ebc2c02d545f581079cf4bbb0cd9) path("Packages/com.unity.inputsystem/InputSystem/InputAnalytics.cs") state(2)
+Script is not up to date after domain reload: guid(a200b19ca1a9685429ed7e043c28e904) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineSmoothPath.cs") state(2)
+Script is not up to date after domain reload: guid(e072bc6a44a3a4944bb32165f753b9ca) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUser.cs") state(2)
+Script is not up to date after domain reload: guid(50db2526021f1429e84687ad14aa0855) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporterEditor.cs") state(2)
+Script is not up to date after domain reload: guid(4ff1587ed21f442578f1ad36c4779a95) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionTrace.cs") state(2)
+Script is not up to date after domain reload: guid(0e235e01f7e6408f87e899ac373c85d1) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/IDualShockHaptics.cs") state(2)
+Script is not up to date after domain reload: guid(e14a578f61014fccab81ed0f1bc21948) path("Packages/com.unity.inputsystem/InputSystem/Devices/Joystick.cs") state(2)
+Script is not up to date after domain reload: guid(620aee1bd928b2a4981896c6b4e1bf0d) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineFramingTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(04e6f1d86089cda409e925cd975436d9) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineFreeLookEditor.cs") state(2)
+Script is not up to date after domain reload: guid(4b0617d4946754ab980342582b1f560c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdown.cs") state(2)
+Script is not up to date after domain reload: guid(1a8a05de0ac134f4f9d01bef6b9da077) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePixelPerfect.cs") state(2)
+Script is not up to date after domain reload: guid(fc1515ab76e54f068e2f2207940fab32) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionReference.cs") state(2)
+Script is not up to date after domain reload: guid(cf624ae4ff5e44cebdcba54ae1ff380a) path("Packages/com.unity.inputsystem/InputSystem/Controls/CommonUsages.cs") state(2)
+Script is not up to date after domain reload: guid(f1e8cf3dc2c11ed47a2666fcf0d3a938) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/BufferedRumble.cs") state(2)
+Script is not up to date after domain reload: guid(dda83392ceab4fddbb9f3c7dd5edde62) path("Packages/com.unity.inputsystem/InputSystem/Events/TextEvent.cs") state(2)
+Script is not up to date after domain reload: guid(83070f7befc0b4deeb2cfde76b5a9002) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlDropdownItem.cs") state(2)
+Script is not up to date after domain reload: guid(247be52eadac5044e9f8b7b4d8d0ada9) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineOrbitalTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(713b035f669b942adbd1cc05c4fb6e1d) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeView.cs") state(2)
+Script is not up to date after domain reload: guid(3894aabfd6ab70245859fa873e1a6552) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/SetSamplingFrequencyCommand.cs") state(2)
+Script is not up to date after domain reload: guid(4ab0ce1980d384014be67a2d135ed92c) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/InvertVector2Processor.cs") state(2)
+Script is not up to date after domain reload: guid(250f0b2038f8466aaa09814a4b1c5f46) path("Packages/com.unity.inputsystem/InputSystem/Devices/InputDevice.cs") state(2)
+Script is not up to date after domain reload: guid(7d7a42e3bb8b4c0f877cbe19718a4103) path("Packages/com.unity.inputsystem/InputSystem/Controls/KeyControl.cs") state(2)
+Script is not up to date after domain reload: guid(da649da79e1b9455791f5ddd31355edc) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/NameAndParameterListView.cs") state(2)
+Script is not up to date after domain reload: guid(620180a2562c422893989c28645cef24) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryKeyboardLayoutCommand.cs") state(2)
+Script is not up to date after domain reload: guid(c64ec1fa74cb7174da4b9f561a7dffe1) path("Packages/com.unity.cinemachine/Runtime/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(e3da24ab555e0c04793b0618d387a2b5) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchPressControl.cs") state(2)
+Script is not up to date after domain reload: guid(a5969901aa40942499363f92e3787110) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineFixedSignal.cs") state(2)
+Script is not up to date after domain reload: guid(ee46ea662a1d4d2397d0b3a45baf67ef) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/DualMotorRumbleCommand.cs") state(2)
+Script is not up to date after domain reload: guid(fa26399d579948dd90c6ff298cdb0570) path("Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock/DualShockSupport.cs") state(2)
+Script is not up to date after domain reload: guid(640e1e705a694e56835bacff3d7f7b4b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/InternedString.cs") state(2)
+Script is not up to date after domain reload: guid(bb83bbf668a324899963d1ea424c5ad0) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DelegateHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(dec69862942cc9744ade63216979cafd) path("Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachinePostProcessingEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6ad980451443d70438faac0bc6c235a0) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineFramingTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(5f3c3863a56212143af61f92a3644bb0) path("Packages/com.unity.cinemachine/Tests/Editor/DampingTests.cs") state(2)
+Script is not up to date after domain reload: guid(b7f59e54f2bfd184b9dd451a678d089b) path("Packages/com.unity.cinemachine/Runtime/Core/NoiseSettings.cs") state(2)
+Script is not up to date after domain reload: guid(e22caa7f1befe4d4db80921ba3cdabdb) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/SerializedPropertyHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(961772e8b1d75dd4a915fb8a236d5a8a) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineMixer.cs") state(2)
+Script is not up to date after domain reload: guid(4a9c464b0191f7d4da1d129d97d8240b) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineBlendDefinitionPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(fb0e54f1ead384cd191254077544faf0) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/ParameterListView.cs") state(2)
+Script is not up to date after domain reload: guid(1ab470181bfe4ba891e0d1584730fc4c) path("Packages/com.unity.inputsystem/InputSystem/Controls/DiscreteButtonControl.cs") state(2)
+Script is not up to date after domain reload: guid(2e3ecb5c3d351df489bd05ac1d820a6a) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchPhaseControl.cs") state(2)
+Script is not up to date after domain reload: guid(ab9baa68d9998419ba6b1bd76b11b630) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamController.cs") state(2)
+Script is not up to date after domain reload: guid(6e444fe6609243258e0a7746c163373a) path("Packages/com.unity.inputsystem/InputSystem/Controls/AnyKeyControl.cs") state(2)
+Script is not up to date after domain reload: guid(6d671947d51444fb9b8a4bf96c16bfed) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/EditorHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(3ec5135f9c8612d42a83f87500580afa) path("Packages/com.unity.inputsystem/InputSystem/Utilities/TypeTable.cs") state(2)
+Script is not up to date after domain reload: guid(8b78cdd0ba4454fd69b2be04e825d921) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeVector3Processor.cs") state(2)
+Script is not up to date after domain reload: guid(551b733126e34f71a7294051cf2bfc0b) path("Packages/com.unity.inputsystem/InputSystem/Controls/AxisControl.cs") state(2)
+Script is not up to date after domain reload: guid(96bf34fe183cd4ce986db61a6639cd5b) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/ScaleVector2Processor.cs") state(2)
+Script is not up to date after domain reload: guid(32ca74660a65e46c4b2bc0f3e3c327f4) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputEditorUserSettings.cs") state(2)
+Script is not up to date after domain reload: guid(fa7155796051b734daa718462081dc5f) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(d618f7e3781548c28836f39ae65d95e1) path("Packages/com.unity.inputsystem/InputSystem/Controls/ButtonControl.cs") state(2)
+Script is not up to date after domain reload: guid(6e687839a3c5f7a4ea700f2967051b3d) path("Packages/com.unity.inputsystem/InputSystem/Utilities/Comparers.cs") state(2)
+Script is not up to date after domain reload: guid(20d24cdc563d241d8a6bbbb9e417d100) path("Packages/com.unity.inputsystem/InputSystem/Editor/Settings/InputSettingsBuildProvider.cs") state(2)
+Script is not up to date after domain reload: guid(179e4e4b8003406d97463b101f15eb8b) path("Packages/com.unity.inputsystem/InputSystem/Devices/Haptics/IHaptics.cs") state(2)
+Script is not up to date after domain reload: guid(caeab4c8826564dfda5e44a7e01a8de1) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/MultiLevelDataSource.cs") state(2)
+Script is not up to date after domain reload: guid(35b7608ac9ab8464280c16fa4adc02f1) path("Packages/com.unity.inputsystem/InputSystem/State/IInputStateCallbackReceiver.cs") state(2)
+Script is not up to date after domain reload: guid(595b51cc3a67d49dd9168092dc0f6eec) path("Packages/com.unity.inputsystem/InputSystem/NativeInputRuntime.cs") state(2)
+Script is not up to date after domain reload: guid(326532c3044e949b696215102693a1a3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerNotifications.cs") state(2)
+Script is not up to date after domain reload: guid(6cef82e891a45884fb2b70604b0f8c29) path("Packages/com.unity.cinemachine/Runtime/Core/Predictor.cs") state(2)
+Script is not up to date after domain reload: guid(90fb794a295e73545af71bcdb7375791) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineShot.cs") state(2)
+Script is not up to date after domain reload: guid(c46f07b5ed07e4e92aa78254188d3d10) path("Packages/com.unity.inputsystem/InputSystem/InputSettings.cs") state(2)
+Script is not up to date after domain reload: guid(87354c477cc09c441b957b3aae10d813) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionMap.cs") state(2)
+Script is not up to date after domain reload: guid(f3984bf8b42bf0040b49d95de1a2990f) path("Packages/com.unity.cinemachine/Runtime/Core/TargetPositionCache.cs") state(2)
+Script is not up to date after domain reload: guid(6261dd2a83757498188548c57e2492bf) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/Touch.cs") state(2)
+Script is not up to date after domain reload: guid(3c197002ad4232e46b0c55f74469fa03) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Switch/SwitchProControllerHID.cs") state(2)
+Script is not up to date after domain reload: guid(39fa3d8997a24136984ca6e2c99902bc) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionAsset.cs") state(2)
+Script is not up to date after domain reload: guid(b0c637405fa4842cc92e389df8729bc8) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/RequestSyncCommand.cs") state(2)
+Script is not up to date after domain reload: guid(924d7617bcdc84f8ea1c0d0ce6466a30) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPathEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e35c175d4f60c4820a36054488cb5524) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPicker.cs") state(2)
+Script is not up to date after domain reload: guid(0c11265b855408d42af33d62691f5194) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineIndependentImpulseListener.cs") state(2)
+Script is not up to date after domain reload: guid(c88d2a04cc828c044b0fcc133fd481e6) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachinePathEditor.cs") state(2)
+Script is not up to date after domain reload: guid(418e42c7d0405cc48a7b83f63ea53bb3) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineTrackedDolly.cs") state(2)
+Script is not up to date after domain reload: guid(6c784a1510a154625903484b84c8ddaf) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryUserIdCommand.cs") state(2)
+Script is not up to date after domain reload: guid(2064cdc23a1f4ec2a5b9b345e46960ed) path("Packages/com.unity.inputsystem/InputSystem/Devices/Sensor.cs") state(2)
+Script is not up to date after domain reload: guid(07003ea62d4443a09691237b23f17ac6) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ReadOnlyArray.cs") state(2)
+Script is not up to date after domain reload: guid(fdb859783dabdca44be0ea05d1203b30) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseEnvelopePropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(bd2cb6115f94b4c129408ea68717f9c3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/StandaloneInputModuleEditor.cs") state(2)
+Script is not up to date after domain reload: guid(8d659406a304446c599b9ec454663c46) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputActionDebuggerWindow.cs") state(2)
+Script is not up to date after domain reload: guid(2f971d46c202b4b7a90865bf5600683f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamHandle.cs") state(2)
+Script is not up to date after domain reload: guid(2ade21199e79d394ab34f4e6887f1c09) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/GetHapticCapabilitiesCommand.cs") state(2)
+Script is not up to date after domain reload: guid(888687b767334731951f3f18ffef0b75) path("Packages/com.unity.inputsystem/InputSystem/Utilities/ArrayHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(06c77ad4af684d2eab4294e0d51afccd) path("Packages/com.unity.inputsystem/InputSystem/Controls/Vector2Control.cs") state(2)
+Script is not up to date after domain reload: guid(674b72d5417404b9eac446749e3e2d5e) path("Packages/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(f61b0e35037644f37b6ac81513577c50) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs") state(2)
+Script is not up to date after domain reload: guid(70f1be76e10cd9f44ad1a86b9e05745e) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/AxisStatePropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(0181db608628b494d8ae50728e507ce1) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlendListCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c3f24f77c633a444893b75d39ae4fa3c) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDebuggerWindow.cs") state(2)
+Script is not up to date after domain reload: guid(4f0b0cfb7c484e43823c1a038c97a5f3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDSupport.cs") state(2)
+Script is not up to date after domain reload: guid(d2c401960c5dc624c8970b2bee0371dc) path("Packages/com.unity.inputsystem/InputSystem/Utilities/DisplayStringFormatAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(12826de7f47b478428a9941b5fb5adcf) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputInteractionContext.cs") state(2)
+Script is not up to date after domain reload: guid(6efadb7e1c29b4055adbd232610a4179) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingComposite.cs") state(2)
+Script is not up to date after domain reload: guid(914fdb42cb964faf92803ee51a7279fd) path("Packages/com.unity.inputsystem/InputSystem/Controls/Vector3Control.cs") state(2)
+Script is not up to date after domain reload: guid(0f7633c93f0364a418841eeb8b058634) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineGroupComposer.cs") state(2)
+Script is not up to date after domain reload: guid(cfe12f5319f74d9e8b0875e965ac280b) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputAction.cs") state(2)
+Script is not up to date after domain reload: guid(7ffe30fd9a2d64031a59c21418fb2067) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/SteamControllerType.cs") state(2)
+Script is not up to date after domain reload: guid(f720cfe5a69dc41b28e4c0a6ac2054c5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserSettings.cs") state(2)
+Script is not up to date after domain reload: guid(54b24e51e2a9fa242b38d80ee11f3b2d) path("Packages/com.unity.cinemachine/Editor/Menus/CinemachineMenu.cs") state(2)
+Script is not up to date after domain reload: guid(bd4bfc3c0efb44494be7101204897b7e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL/WebGLSupport.cs") state(2)
+Script is not up to date after domain reload: guid(a99745fe0133ddf4b9a4d6c58af7795a) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Switch/SwitchSupportHID.cs") state(2)
+Script is not up to date after domain reload: guid(0e297b4219a224ba5bcb4f9293e26ea9) path("Packages/com.unity.inputsystem/InputSystem/Actions/IInputActionCollection.cs") state(2)
+Script is not up to date after domain reload: guid(b200cbcb815aa44418fe8ada8cb78696) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/InitiateUserAccountPairingCommand.cs") state(2)
+Script is not up to date after domain reload: guid(d0821e88149544e9b53290bf15b8d100) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputStateWindow.cs") state(2)
+Script is not up to date after domain reload: guid(afe3cda3e244f60419474164d6ba3b0b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/TrackedDeviceRaycaster.cs") state(2)
+Script is not up to date after domain reload: guid(0e0c005ff24ec4cfb951eefa16239b9b) path("Packages/com.unity.inputsystem/InputSystem/Utilities/NamedValue.cs") state(2)
+Script is not up to date after domain reload: guid(01614664b831546d2ae94a42149d80ac) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModule.cs") state(2)
+Script is not up to date after domain reload: guid(9af5cfc54cf34eb1ac27c9c90a9a7440) path("Packages/com.unity.inputsystem/InputSystem/Events/DeviceRemoveEvent.cs") state(2)
+Script is not up to date after domain reload: guid(3d2dbd5e535742a18f979fdaa69e3627) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/IXboxOneRumble.cs") state(2)
+Script is not up to date after domain reload: guid(15fa4fb6e47739e43b36a70fce024b6f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidAxis.cs") state(2)
+Script is not up to date after domain reload: guid(ef73fbf6f536c4184845d789870911a3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XInput/XboxGamepadMacOS.cs") state(2)
+Script is not up to date after domain reload: guid(7009ea2cce278c14d852537c8f40c8a0) path("Packages/com.unity.inputsystem/InputSystem/Controls/IntegerControl.cs") state(2)
+Script is not up to date after domain reload: guid(8000e8170b5e1374c9503b5255ccc7e8) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineNoiseSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(9231fc068a549684f8ece75b66d6095b) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/WindowsMR.cs") state(2)
+Script is not up to date after domain reload: guid(2449eb616c871d044adce04ac98030a6) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/LensSettingsPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(bd920fe83f1086148a2b401f3e66528f) path("Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewFreeLook.cs") state(2)
+Script is not up to date after domain reload: guid(db7a158b580fb4518ae82aa029a54892) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPickerDropdown.cs") state(2)
+Script is not up to date after domain reload: guid(9ce16cd7e31794b48b2843381cd87d31) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLookAtEditor.cs") state(2)
+Script is not up to date after domain reload: guid(2adf148a19499274795e418631d7db45) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineTouchInputMapper.cs") state(2)
+Script is not up to date after domain reload: guid(82e62c82b3be64042ac529dee964cc2f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineStoryboard.cs") state(2)
+Script is not up to date after domain reload: guid(ba59c38a116ff2f4fb69f825ba0da3bc) path("Packages/com.unity.cinemachine/Editor/Utility/ScriptableObjectUtility.cs") state(2)
+Script is not up to date after domain reload: guid(2588cc5dedbb75e49a44aada63f7b939) path("Packages/com.unity.cinemachine/Runtime/Behaviours/Cinemachine3rdPersonAim.cs") state(2)
+Script is not up to date after domain reload: guid(ce1664b057efc40759e0da41d54e3e4e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Users/InputUserChange.cs") state(2)
+Script is not up to date after domain reload: guid(325a6a3050a061e4b8aa51386c30e8e1) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineStateDrivenCamera.cs") state(2)
+Script is not up to date after domain reload: guid(bca227b3a59246a197db2ff52b862072) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/ExtendedPointerEventData.cs") state(2)
+Script is not up to date after domain reload: guid(94995588a5664878be30498a8ace6ba2) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/NormalizeProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(c2db5674bb583c0449389396f935abf8) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionPhase.cs") state(2)
+Script is not up to date after domain reload: guid(4eac2aa5bc9a4fc1b87308eec2acf8b1) path("Packages/com.unity.inputsystem/InputSystem/Devices/Pen.cs") state(2)
+Script is not up to date after domain reload: guid(68194b7bb9ff1c6489c9c3c87c68c2a4) path("Packages/com.unity.cinemachine/Editor/Experimental/VcamStageEditor.cs") state(2)
+Script is not up to date after domain reload: guid(1ff9d8296ed1f02419bf4f417ff2265e) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlenderSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ede17f8b7e9dfcf42b560545a8102eeb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidKeyCode.cs") state(2)
+Script is not up to date after domain reload: guid(1123a444101eb774ba7490990b50736a) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineSmoothPathEditor.cs") state(2)
+Script is not up to date after domain reload: guid(36d1163fa822e8b418a0a603ec078d5c) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLockToTarget.cs") state(2)
+Script is not up to date after domain reload: guid(ef4e8c908ae24e438f4baea55d866f5e) path("Packages/com.unity.inputsystem/InputSystem/State/InputStateBlock.cs") state(2)
+Script is not up to date after domain reload: guid(711aad28b4057bd4783120e26ff2ee25) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBrainEditor.cs") state(2)
+Script is not up to date after domain reload: guid(fa7997ba71d7b476799fab3d063b7e6c) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventBuffer.cs") state(2)
+Script is not up to date after domain reload: guid(2bb09c3bc24a82648a2e4fc008a28d8b) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineComposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(8ad60cb17f7694c43a8190c617281753) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineMixingCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(f018dacefe574045a76769f5f355f3b1) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/WarpMousePositionCommand.cs") state(2)
+Script is not up to date after domain reload: guid(dfa8add0e3ed349708aeadc8b8c1ad0f) path("Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/InputControlPickerState.cs") state(2)
+Script is not up to date after domain reload: guid(ebb13519e7af50b4dbc59d78b3bb6a32) path("Packages/com.unity.cinemachine/Editor/Utility/InspectorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(5b23e3210ca74ea9ae4fe882b9bce278) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEventTrace.cs") state(2)
+Script is not up to date after domain reload: guid(65eebf71eb882124fa7f75085f367e5f) path("Packages/com.unity.cinemachine/Runtime/Helpers/GroupWeightManipulator.cs") state(2)
+Script is not up to date after domain reload: guid(fca2bf25139920d4f9bf86711457992e) path("Packages/com.unity.cinemachine/Runtime/Core/SplineHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(d8ce1fd8f845226439f6b4ee991c9f78) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryDimensionsCommand.cs") state(2)
+Script is not up to date after domain reload: guid(b16c6f78230fa4964a222622d8aae332) path("Packages/com.unity.inputsystem/InputSystem/Plugins/UI/MultiplayerEventSystem.cs") state(2)
+Script is not up to date after domain reload: guid(c2fadf230d1919748a9aa21d40f74619) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/TrackedPoseDriver.cs") state(2)
+Script is not up to date after domain reload: guid(bb39cf984021140a3adc2419327534a7) path("Packages/com.unity.inputsystem/InputSystem/Events/IMECompositionEvent.cs") state(2)
+Script is not up to date after domain reload: guid(e5eb80d8e62d9d145bb50fb783c0f731) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineTargetGroup.cs") state(2)
+Script is not up to date after domain reload: guid(e9d677f1681015749b15c436eec6d880) path("Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen/OnScreenStick.cs") state(2)
+Script is not up to date after domain reload: guid(e553fed0b97be3349aff36916eb6fefc) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs") state(2)
+Script is not up to date after domain reload: guid(9e37175fb5b321444aa88a861f93360a) path("Packages/com.unity.inputsystem/InputSystem/Actions/IInputInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(829b8a241d4653446a2cb2436c262305) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseDefinition.cs") state(2)
+Script is not up to date after domain reload: guid(802caa2f96f49470facf48de1e652f16) path("Packages/com.unity.inputsystem/InputSystem/Actions/Interactions/PressInteraction.cs") state(2)
+Script is not up to date after domain reload: guid(4b0a256055e11cf4999a9ee9e8b0db2a) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/VcamTargetPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(3c764fcc1188a6e489f8c305ff4077a6) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryEditorWindowCoordinatesCommand.cs") state(2)
+Script is not up to date after domain reload: guid(fbe76c3f0e980e6468b895ac1133c20d) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingCompositeContext.cs") state(2)
+Script is not up to date after domain reload: guid(ae31a855334ecf64f848ae8e0b4e5a24) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionSetupExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(7c93968c9be74a1fa43a3dad5eed4cbd) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputActionSerializationHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(62dcc18c42c2246bdaed7fe210b77118) path("Packages/com.unity.inputsystem/InputSystem/Actions/Composites/ButtonWithTwoModifiers.cs") state(2)
+Script is not up to date after domain reload: guid(a8725b08dfa3851468b1f029bb53c966) path("Packages/com.unity.cinemachine/Editor/Windows/WaveformWindow.cs") state(2)
+Script is not up to date after domain reload: guid(92d6890c6702d4891a156d7d30cdbdcb) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputControlScheme.cs") state(2)
+Script is not up to date after domain reload: guid(a7c6472eb810ba445be34c69325e4fea) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidGameController.cs") state(2)
+Script is not up to date after domain reload: guid(87ce818774f4c544882b249f32619300) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/EditorWindowSpaceProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(f06ed8c4023b8420784a262e45338aa3) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/XRLayoutBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(793d3fce58f547d688fdc78bee75cd30) path("Packages/com.unity.inputsystem/InputSystem/Controls/TouchControl.cs") state(2)
+Script is not up to date after domain reload: guid(15ef94834d9e4aa44ac8fe619843346b) path("Packages/com.unity.cinemachine/Editor/Utility/BaseEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ba2c9cc57fa154716b6f077bf9c1c193) path("Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionDrawerBase.cs") state(2)
+Script is not up to date after domain reload: guid(54ee1a1058dfd4e089fe94a8e880938e) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/GUIHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(6036af5730313e54699c5a693891fe90) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineClearShotEditor.cs") state(2)
+Script is not up to date after domain reload: guid(150936adb4fc13049a1001992b86c43e) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices/Oculus.cs") state(2)
+Script is not up to date after domain reload: guid(cd438dd108a0f284aa931a2da434f1d3) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineCollisionImpulseSource.cs") state(2)
+Script is not up to date after domain reload: guid(41a7beeb0ec57584382c8170981d8ac1) path("Packages/com.unity.cinemachine/Runtime/Core/UpdateTracker.cs") state(2)
+Script is not up to date after domain reload: guid(3c9beda531928fc40968802117a5d256) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachinePOV.cs") state(2)
+Script is not up to date after domain reload: guid(e1523c5607084617abb64b2ad9cb1f66) path("Packages/com.unity.inputsystem/InputSystem/InputSystem.cs") state(2)
+Script is not up to date after domain reload: guid(54b255b27c8247b4b51e8df1f30af3c9) path("Packages/com.unity.inputsystem/InputSystem/Utilities/StringHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(0544e7b14d134a1449e61175446cfb95) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineRecomposer.cs") state(2)
+Script is not up to date after domain reload: guid(90a43988da5cf85498b40180b9040a38) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/RequestResetCommand.cs") state(2)
+Script is not up to date after domain reload: guid(3226d9f88577be74197693bd17cff8c3) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineExternalCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(455d9bc907fb62d44a2195e53ff7c0b7) path("Packages/com.unity.inputsystem/InputSystem/Utilities/PrimitiveValue.cs") state(2)
+Script is not up to date after domain reload: guid(ea7d19a9cdd73486689f292cc9d38018) path("Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs") state(2)
+Script is not up to date after domain reload: guid(5cdce2bffd1e49bda08b3db54a031207) path("Packages/com.unity.inputsystem/InputSystem/InputSystemObject.cs") state(2)
+Script is not up to date after domain reload: guid(4f7d29e15c49c49499875a6a2378f2a4) path("Packages/com.unity.inputsystem/InputSystem/Editor/InputParameterEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0803634542916d8498caef53ed5604db) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannelPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(68bb026fafb42b14791938953eaace77) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineBasicMultiChannelPerlin.cs") state(2)
+Script is not up to date after domain reload: guid(829e606f890b35c47aa29643517add2e) path("Packages/com.unity.cinemachine/Editor/Windows/AboutWindow.cs") state(2)
+Script is not up to date after domain reload: guid(635124a90cfbdc64eb3e9c0fc6904aa5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/iOS/iOSSupport.cs") state(2)
+Script is not up to date after domain reload: guid(6d862fce0b0707949bb86058d777b116) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineInputAxisDriver.cs") state(2)
+Script is not up to date after domain reload: guid(84ed8f0fc9aae9347b3b0a962eeacf32) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputBindingResolver.cs") state(2)
+Script is not up to date after domain reload: guid(71f3c0e630f0148b496f565843b5b272) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/Finger.cs") state(2)
+Script is not up to date after domain reload: guid(0049e966b9953774fa3d07808a5555a9) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs") state(2)
+Script is not up to date after domain reload: guid(ed3efd28525441947b55ec9b5d68ba31) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineTagFieldPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(ca5a63bf867c240879f2eb2179771ffb) path("Packages/com.unity.inputsystem/InputSystem/Actions/InputActionState.cs") state(2)
+Script is not up to date after domain reload: guid(d59a0dc8508f4cf1819f6ba99250cd8e) path("Packages/com.unity.inputsystem/InputSystem/Controls/InputControl.cs") state(2)
+Script is not up to date after domain reload: guid(a736049645e8c4781aedf679c2ee6be6) path("Packages/com.unity.inputsystem/InputSystem/Plugins/HID/HIDParser.cs") state(2)
+Script is not up to date after domain reload: guid(4692eb7a7fa5c53458eb32a04df6c6a0) path("Packages/com.unity.cinemachine/Editor/Experimental/CinemachineNewVirtualCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(78260363757e4b02b9c6cc9949b4091a) path("Packages/com.unity.inputsystem/InputSystem/Events/InputEvent.cs") state(2)
+Script is not up to date after domain reload: guid(0eb9f23cde3a1734da334cfa0831dd25) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineStateDrivenCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(68839a4bf8790cd449d4043f5efb5aec) path("Packages/com.unity.cinemachine/Runtime/Core/GaussianFilter.cs") state(2)
+Script is not up to date after domain reload: guid(621567455fd1c4ceb811cc8a00b6a1a5) path("Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs") state(2)
+Script is not up to date after domain reload: guid(02a54f9a4f584f5397cf3e9697372394) path("Packages/com.unity.inputsystem/InputSystem/Events/IInputEventTypeInfo.cs") state(2)
+Script is not up to date after domain reload: guid(5356d1db487a5284fb27af2798adad33) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineShotPlayable.cs") state(2)
+Script is not up to date after domain reload: guid(5f84d6a1bd34ea6428fa1db0e9f459cb) path("Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics/SendHapticImpulseCommand.cs") state(2)
+Script is not up to date after domain reload: guid(fc54afb14b6b01a4dabc4c8831cb7bf7) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineSameAsFollowTargetEditor.cs") state(2)
+Script is not up to date after domain reload: guid(f4044717213e31446939f7bd49c896ea) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs") state(2)
+Script is not up to date after domain reload: guid(4700f9f03ad19f94baf0367cb7a9c988) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFollowZoom.cs") state(2)
+Script is not up to date after domain reload: guid(b33f51f6a55e541e995b5f6a10498d65) path("Packages/com.unity.inputsystem/InputSystem/InputMetrics.cs") state(2)
+Script is not up to date after domain reload: guid(42a7c5e6c9bc849a3a9163e719422c50) path("Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownItem.cs") state(2)
+Script is not up to date after domain reload: guid(153c0ac2dec541bc824175008b97615d) path("Packages/com.unity.inputsystem/InputSystem/Devices/Remote/RemoteInputPlayerConnection.cs") state(2)
+Script is not up to date after domain reload: guid(53258ad9ad6e71e48bb8643c9522112e) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBlendListCamera.cs") state(2)
+Script is not up to date after domain reload: guid(d8afcd24f0b647f4f9f8c539d613ee6d) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputBindingPropertiesView.cs") state(2)
+Script is not up to date after domain reload: guid(ee42f1964a0e8224c90be81905946699) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBasicMultiChannelPerlinEditor.cs") state(2)
+Script is not up to date after domain reload: guid(830105192d35a17469c56711468d1e8f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Android/AndroidSensors.cs") state(2)
+Script is not up to date after domain reload: guid(c2a918f460a69394eb9726b31e1d404c) path("Packages/com.unity.cinemachine/Runtime/Core/CameraState.cs") state(2)
+Script is not up to date after domain reload: guid(933e2b6843fbbbc4c8cabeead6fc1fae) path("Packages/com.unity.cinemachine/Editor/Experimental/CinemachineNewFreeLookEditor.cs") state(2)
+Script is not up to date after domain reload: guid(f23d52331ea559841a7b7c27ca58037c) path("Packages/com.unity.cinemachine/Editor/Timeline/CinemachineShotClipEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c7d73314dfe49f8458398c6dc8edcda8) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineCore.cs") state(2)
+Script is not up to date after domain reload: guid(3fed8968b96eb924891cf86f5c51f661) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlend.cs") state(2)
+Script is not up to date after domain reload: guid(f617c1bc34684f738c0d2cb4d0650f35) path("Packages/com.unity.inputsystem/InputSystem/Devices/Remote/InputRemoting.cs") state(2)
+Script is not up to date after domain reload: guid(4e49477f346c4f3a8c9e5fcdcde317ed) path("Packages/com.unity.inputsystem/InputSystem/Devices/Commands/QueryKeyNameCommand.cs") state(2)
+Script is not up to date after domain reload: guid(f24a4388d07ef494e8516cb859803e09) path("Packages/com.unity.cinemachine/Editor/Timeline/CinemachineShotEditor.cs") state(2)
+Script is not up to date after domain reload: guid(110e42b335c6744e482ada733cbda674) path("Packages/com.unity.inputsystem/InputSystem/Controls/Processors/AxisDeadzoneProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(4cc0c6a7fa1c14a518fec64497f4937f) path("Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch/TouchHistory.cs") state(2)
+Script is not up to date after domain reload: guid(060ae4265f580481f9bc2f2e7ab367ef) path("Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PropertiesViewBase.cs") state(2)
+Script is not up to date after domain reload: guid(425bde5d5c63e4c5d8d95b068a911236) path("Packages/com.unity.inputsystem/InputSystem/Plugins/Steam/IStreamControllerAPI.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 9.537900 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.093000 ms MarkObjects: 5.904000 ms  DeleteObjects: 3.123900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009389 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (577ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 19.994500 ms (FindLiveObjects: 3.032300 ms CreateObjectMapping: 0.243100 ms MarkObjects: 15.986500 ms  DeleteObjects: 0.729800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
