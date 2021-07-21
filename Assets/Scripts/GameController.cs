@@ -51,23 +51,28 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(fuseInPlace)
-            if(energyRestored && !powerIsOn)
+        if(fuseInPlace) //If fuse is in place
+            if(energyRestored && !powerIsOn) //If energy is restored but power continues off
             {
-                powerIsOn = true;
-                PowerObjectiveCheck(true);
+                powerIsOn = true; //Set power to on
+                PowerObjectiveCheck(true); //Enable EnergyOnly Objects
             }
-            else if(!energyRestored && powerIsOn)
+            else if(!energyRestored && powerIsOn) //If energy is off but power continues on
             {
-                powerIsOn = false;
-                PowerObjectiveCheck(false);
+                powerIsOn = false; //Set power to off
+                PowerObjectiveCheck(false); //Disable EnergyOnly Objects
             }
-        else if(!fuseInPlace && (energyRestored || powerIsOn))
+        else if(!fuseInPlace && (energyRestored || powerIsOn)) //If fuse isn't in place
         {
-            powerIsOn = false;
-            energyRestored = false;
-            PowerObjectiveCheck(false);
+            powerIsOn = false; //Power is set to false
+            energyRestored = false; //Energy is set to false
+            PowerObjectiveCheck(false); //Disable EnergyOnly Objects
         }
+
+        if(hasFuse) //If has fuse in inventory
+            fuse_HUD_Icon.SetActive(true); //Show fuse icon in HUD
+        else //If hasn't fuse in inventory
+            fuse_HUD_Icon.SetActive(false); //Hide fuse icon in HUD
     }
 
     public void ServerObjectiveCheck()
