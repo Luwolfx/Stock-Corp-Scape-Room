@@ -1,0 +1,89 @@
+#----------------------------------------------------------------------------------------------
+#
+#   Language/Text System
+#
+#   use /n para pular linha!
+#   use tags html como <size>, <color>, etc para deixar o texto mais bonito!
+#   
+#   ATENÇÃO!
+#   O padrão deve ser: "<tag> = <texto>" incluindo espaços!
+#
+#----------------------------------------------------------------------------------------------
+#
+#   MENU
+play = PLAY
+credits = CREDITS
+quit = QUIT GAME
+#
+#----------------------------------------------------------------------------------------------
+#
+#   OBJECTIVES
+objective.title = OBJECTIVE 
+objective.0 = Verify mails in your pc to find a hint to escape the company
+objective.1 = Find out Mary's PC password, it's probably travel related
+objective.2 = Find the Fuse
+objective.3 = Put the fuse back in its place 
+objective.4 = Find out the lab PC password, there must be some hint on Mary's PC
+objective.5 = Discover the secret of the servers 
+objective.6 = Find out the Entrace PC password
+objective.7 = LEAVE THE COMPANY
+#
+#----------------------------------------------------------------------------------------------
+#
+#   HUD TEXTS
+item.fuse = fuse
+#
+#----------------------------------------------------------------------------------------------
+#
+#   COMPUTER HUD
+login.insertpassword = INSERT PASSWORD
+login.button.login = Login
+login.error.title = ERROR
+login.error.servers = SOME SERVERS MAY BE OFFLINE!
+#
+logged.opendoor = Open Door
+logged.logout = Logout
+logged.email = Email
+logged.servers = Servers
+#
+#----------------------------------------------------------------------------------------------
+#
+#   COMPUTER EMAILS
+mail.title.passwords = Passwords
+mail.title.sorryjohn = Sorry John
+mail.title.serverslist = Servers List
+mail.title.labenergy = Lab Energy
+mail.title.travelling = Travelling
+mail.title.serverproblems = Server Problems
+mail.title.entrancepassword = Entrance Password
+#---
+mail.passwords = <color=grey>From: </color>Mary/n<color=grey>Subject: </color>New Passwords!/n<color=grey>Email: </color> Hey John, I have changed te passwords of all PC's in the company, if you need some just talk with me or see them on the PC in the Stock room!/n/nAlso, I haven't changed your PC password! xD
+#---
+mail.sorryjohn = <color=grey>From: </color>Mary/n<color=grey>Subject: </color>Sorry... I'm still in Vancouver.../n<color=grey>Email: </color> Hey John, I'm so sorry but i'm still in vancouver... My plane back to Brazil have been cancelled so i'm stuck in here for more 3 days./nHang in there without me a few more days, and sorry again...
+#
+mail.sorryjohn.marypc = <color=grey>To: </color>John/n<color=grey>Subject: </color>Sorry... I'm still in Vancouver.../n<color=grey>Email: </color> Hey John, I'm so sorry but i'm still in vancouver... My plane back to Brazil have been cancelled so i'm stuck in here for more 3 days./nHang in there without me a few more days, and sorry again...
+#
+mail.sorryjohn.2 = <color=grey>You/nIt's ok Mary! But no more days ok? i will die in here alone :(
+#---
+mail.serverslist.john = <color=grey>From: </color>Wilson/n<color=grey>Subject: </color>Servers Content List/n<color=grey>Email: </color> Hey John, I don't know if you saw the email in the Lab PC, but i'll send it again here: "Since our company is investing in more servers, i'm arranging the files for each specific server, here is a list to you:/n1- Sales Data in Europe/n2- Sales Data in South America/n3- Sales Data in North America/n4- Sales Data in Central America/n5- Sales Data in Africa/n6- Sales Data in Asia/n7- Sales Data in Australia/n8- Unregistered Sales Data/n9- Employee Data/n10- Company Purchasing Data/n11- Confidential business files "
+#
+mail.serverslist.mary = <color=grey>From: </color>Wilson/n<color=grey>Subject: </color>Servers Content List/n<color=grey>Email: </color> Hey Mary, I don't know if you saw the email in the Lab PC, but i'll send it again here: "Since our company is investing in more servers, i'm arranging the files for each specific server, here is a list to you:/n1- Sales Data in Europe/n2- Sales Data in South America/n3- Sales Data in North America/n4- Sales Data in Central America/n5- Sales Data in Africa/n6- Sales Data in Asia/n7- Sales Data in Australia/n8- Unregistered Sales Data/n9- Employee Data/n10- Company Purchasing Data/n11- Confidential business files "
+#
+mail.serverslist = <color=grey>From:</color> Wilson/n<color=grey>Subject:</color> Server List/n<color=grey>Email:</color> Hello workers,/nSince our company is investing in more servers, i'm arranging the files for each specific server. /n/nI'll send a list of what wich server will contain in your company emails, so please stay tuned in your emails in the next few days!/n/nBest Regards,/nWilson
+#---
+mail.labenergy = <color=grey>To: </color>Wilson/n<color=grey>Subject: </color>Strange thing in eletrical.../n<color=grey>Email: </color> Hey Wilson,/nCan you see a problem with the lab's electrical? There are strange sounds and lights going out of nowhere. Well, I took the fuse from the Lab just to guarantee that nothing explodes, I put it in one of the drawers at the company. 
+#---
+mail.travelling = <color=grey>To: </color>Rose/n<color=grey>Subject: </color>I'll TRAVELLL/n<color=grey>Email: </color> Hey rose! guess what? I'm going on a vacation!!!!! YESSS, I planned to go around the world visiting other country's, starting with USA, yes, i'm going to NEW YORK!!! I'm so happy xD
+#
+mail.travelling.2 = <color=grey>Rose/nOMG, thats so NICE, I wish i could travel, i would go to Argentina, I have a lot of friends there!
+#
+mail.travelling.3 = You/nArgentina? don't you have friends in italy too? Sorry I really don't like Argentina, it's one place that I probably will never go, together with Australia, China, and... I really don't like the Laboratory here on the company I work, it is literally in front of me but I never gone there... I think is haunted, idk, it's strange.
+#---
+mail.serverproblems = <color=grey>From:</color> Wilson/n<color=grey>Subject:</color> Server Problems/n<color=grey>Email:</color> Hello workers,/nYou may notice that some archives is missing in your pcs, that is because some server files corrupted last day and some servers crashed, because of this the computer in stock room is inoperant, the crashed servers are also crashing the pc./n/nI'll make a relatory of the corrupted archives and let it on the stock room!/n/nSorry but I can't solve this problem this week, I will solve them next Tuesday!
+#---
+mail.entrancepassword = <color=grey>To: </color>Boss/n<color=grey>Subject: </color>New Entrance Password/n<color=grey>Email: </color> Hey Boss,/n/nMary changed all the passwords as you wished, I still don't know Labs PC Password but I know the Entrance one./n/nShe put the number of products we received last week, so it's like that:/nnumber of Vases received + number of box received + number of servers we have!/n/nHope it helps!/nWilson
+#
+#----------------------------------------------------------------------------------------------
+#
+#   OTHER TEXTS
+servers.relatory = <size=46>SERVERS /nRELATORY</size>/nYou may notice missing archives of company purchases, not registered sells, and archives of sells on the following DDI's: 86, 53, 49, 33 and 61.
