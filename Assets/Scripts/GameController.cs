@@ -8,7 +8,6 @@ public class GameController : MonoBehaviour
     public static GameController instance;
     
     [Header("Objectives")]
-    private int objective;
     public int actualObjective;
 
     [Header("Objective - Energy")]
@@ -35,7 +34,6 @@ public class GameController : MonoBehaviour
     void Start()
     {
         //ObjectiveSystem
-        objective = 0;
         actualObjective = 0;
 
         //Servers
@@ -88,11 +86,8 @@ public class GameController : MonoBehaviour
                 stockpcScreen.SetActive(true); //Active Screen without error
             } 
 
-            if(actualObjective <= 4) // If objective is outdated
-            {
-                actualObjective = 5; // Update objective
-                serversObjectiveHint.SetActive(false);
-            }
+            ChangeObjective(6);
+            serversObjectiveHint.SetActive(false); //Disable server hints
         }
         else //If servers are not correct, disable PC
         {
@@ -118,6 +113,11 @@ public class GameController : MonoBehaviour
         {
             g.SetActive(hasPower); //Activate or Deactivate depending on power is on or off
         }
+    }
+
+    public void ChangeObjective(int objNumber)
+    {
+        if(objNumber > actualObjective) actualObjective = objNumber; //If objective number is more than the actual, change the actual to this.
     }
 
 }

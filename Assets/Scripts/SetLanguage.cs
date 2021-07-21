@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using TMPro;
+using UnityEditorInternal;
 
 public class SetLanguage : MonoBehaviour
 {
@@ -27,6 +28,13 @@ public class SetLanguage : MonoBehaviour
 
     void getTextType()
     {
+        if(LanguageSystem.Fields[TextId] == null)
+        {
+            Invoke("getTextType", 0.5f);
+            print("LanguageSystem or Id not found!");
+            return;
+        }
+
         if(GetComponent<Text>() != null)
         {
             OnlyText(GetComponent<Text>());
@@ -54,7 +62,11 @@ public class SetLanguage : MonoBehaviour
             if(TextId == "ISOCode")
                 text.text = LanguageSystem.GetLanguage();
             else
+            {
                 text.text = LanguageSystem.Fields[TextId];
+                text.text += " ";
+
+            }
         else
             text.text = "Erro!";
     }

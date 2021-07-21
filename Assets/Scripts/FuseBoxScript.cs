@@ -26,12 +26,14 @@ public class FuseBoxScript : MonoBehaviour
         {
             GameController.instance.energyRestored = true; //Restores Energy in B1 (Lab)
             b1Button.material = buttonMaterials[2]; //Change button to green
+            GameController.instance.ChangeObjective(4); //Complete objective
         }
     }
 
     public void GetFuseItem()
     {
         GameController.instance.hasFuse = true; //Add fuse to inventory
+        GameController.instance.ChangeObjective(3); //Complete objective
     }
 
 }
