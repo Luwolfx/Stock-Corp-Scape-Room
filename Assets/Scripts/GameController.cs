@@ -44,6 +44,9 @@ public class GameController : MonoBehaviour
         {
             s.isOn = false; //Start off
         }
+
+        //Cursor Lock to center
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
