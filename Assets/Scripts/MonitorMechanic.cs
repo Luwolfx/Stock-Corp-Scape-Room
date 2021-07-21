@@ -28,12 +28,12 @@ public class MonitorMechanic : MonoBehaviour
         {
             if(tryedPassword == thePassword) //If password is correct
             {
-                print("Access Granted!"); //Print in console
+                //print("Access Granted!"); //Print in console
                 PasswordIsCorrect();
             }
             else //If password isn't correct
             {
-                print("Wrong Password!"); //Print in console
+                //print("Wrong Password!"); //Print in console
                 PasswordIsIncorrect();
             }
         }
@@ -56,12 +56,12 @@ public class MonitorMechanic : MonoBehaviour
     {
         if(tryedPassword == thePassword) //If password is correct
         {
-            print("Access Granted!"); //Print in console
+            //print("Access Granted!"); //Print in console
             PasswordIsCorrect();
         }
         else //If password isn't correct
         {
-            print("Wrong Password!"); //Print in console
+            //print("Wrong Password!"); //Print in console
             PasswordIsIncorrect();
         }
     }
