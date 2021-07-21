@@ -11,15 +11,14 @@ public class GameController : MonoBehaviour
     private int objective;
     public int actualObjective;
 
-    //Energy objective
-    public bool fuseInPlace, energyRestored;
-    private bool powerIsOn;
-    public Server[] servers;
-
     [Header("Objective - Energy")]
+    public bool hasFuse, fuseInPlace, energyRestored;
+    private bool powerIsOn;
     public GameObject[] energy_objects;
+    public GameObject fuse_HUD_Icon;
 
     [Header("Objective - Servers")]
+    public Server[] servers;
     public GameObject serversObjectiveHint;
     public GameObject stockpcScreen;
     public GameObject stockpcScreenError;
