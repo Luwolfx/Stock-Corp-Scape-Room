@@ -2,8 +2,8 @@
  Unity Scape Room Game onde você está preso na empresa onde trabalha e precisa arrumar um jeito de sair, só que sua amiga Mary trocou todas as senhas dos computadores. Ache as senhas espalhados pela empresa até arrumar a senha da porta principal e sair da empresa!
  
 # Baixe o Jogo!
- Baixe o jogo pelo link a seguir:
- (LINK AQUI)
+ Baixe o jogo pelo link a seguir:<br>
+ <a href="https://github.com/lucasgpgpae/REALVI-Scape-Room/releases/download/Release/Stock.Corp.Scape.Room.zip">DOWNLOAD AQUI</a>
  
 # Como jogar:
  Use W, A, S, D para se mover. <br>
