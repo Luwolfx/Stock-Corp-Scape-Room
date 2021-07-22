@@ -6,6 +6,10 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
+
+    [Header("Game Statistics")]
+    public string totalGameTime;
+    private float gameStartedTime;
     
     [Header("Objectives")]
     public int actualObjective;
@@ -44,11 +48,16 @@ public class GameController : MonoBehaviour
 
         //Cursor Lock to center
         Cursor.lockState = CursorLockMode.Locked;
+
+
+        gameStartedTime = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
+        GameTimer(); //Calculate GameTime
+
         if(fuseInPlace) //If fuse is in place
             if(energyRestored && !powerIsOn) //If energy is restored but power continues off
             {
@@ -71,6 +80,22 @@ public class GameController : MonoBehaviour
             fuse_HUD_Icon.SetActive(true); //Show fuse icon in HUD
         else //If hasn't fuse in inventory
             fuse_HUD_Icon.SetActive(false); //Hide fuse icon in HUD
+    }
+
+    void GameTimer()
+    {
+        float t = Time.time - gameStartedTime; //get total time
+        int min = ((int)t / 60); //Calculate minutes
+        int secs = ((int)t % 60); //calculate seconds
+
+        //TIMER
+        totalGameTime = min + ":"; //put minutes in totalGameTime
+        if(secs > 9) totalGameTime+= secs; else totalGameTime+= "0"+secs; //put seconds in totalGameTime
+    }
+
+    public void SaveGameTime()
+    {
+        PlayerPrefs.SetString("last_game_time", totalGameTime); //Save GameTime in a PlayerPref
     }
 
     public void ServerObjectiveCheck()

@@ -9,6 +9,7 @@ public class EndGameTrigger : MonoBehaviour
     {
         if(col.tag == "Player")
         {
+            GameController.instance.SaveGameTime(); //Save total Game Time
             print("THE END!");
             SceneManager.LoadScene(2); //Credits
         }

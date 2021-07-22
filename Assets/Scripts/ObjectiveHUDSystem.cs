@@ -69,7 +69,7 @@ public class ObjectiveHUDSystem : MonoBehaviour
             case ObjectiveSystemFases.SHOWING:
 
                 if(objectiveSystemPoints[1].position.x >= canvasTopRight.position.x) //check if objective isn't showing
-                    transform.Translate(Vector3.left * Time.deltaTime * 300); // continue moving
+                    transform.Translate(Vector3.left * Time.deltaTime * 600); // continue moving
                 else //if is showing
                     fases = ObjectiveSystemFases.WAITING_FOR_COMPLETION; //go back to first fase
 

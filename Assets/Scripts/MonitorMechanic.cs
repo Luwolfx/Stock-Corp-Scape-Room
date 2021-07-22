@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class MonitorMechanic : MonoBehaviour
 {
+    public bool logged;
+
     [Header("LOGIN REQUIRED")]
     public string thePassword;
     public string tryedPassword;
@@ -13,6 +16,8 @@ public class MonitorMechanic : MonoBehaviour
     [Header("Areas")]
     public GameObject LoginArea;
     public GameObject LoggedArea;
+
+    public AudioSource login;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +31,12 @@ public class MonitorMechanic : MonoBehaviour
         // If player digited 6+ numbers
         if(tryedPassword.Length >= 6)
         {
-            if(tryedPassword == thePassword) //If password is correct
+            if((tryedPassword == thePassword) && !logged) //If password is correct
             {
                 //print("Access Granted!"); //Print in console
                 PasswordIsCorrect();
             }
-            else //If password isn't correct
+            else if((tryedPassword != thePassword) && logged) //If password isn't correct
             {
                 //print("Wrong Password!"); //Print in console
                 PasswordIsIncorrect();
@@ -68,6 +73,7 @@ public class MonitorMechanic : MonoBehaviour
 
     public void Loggout()
     {
+        logged = false; //Logout
         PasswordIsIncorrect(); //Resets password
 
         LoggedArea.SetActive(false); //Dectivate Logged Area
@@ -76,6 +82,8 @@ public class MonitorMechanic : MonoBehaviour
 
     void PasswordIsCorrect()
     {
+        logged = true; //Login
+        login.Play(); //Play Loggin Sound
         LoggedArea.SetActive(true); //Activate Logged Area
         LoginArea.SetActive(false); //Deactivate Login Area
     }
