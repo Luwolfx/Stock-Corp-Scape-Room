@@ -8,6 +8,9 @@ public class FuseBoxScript : MonoBehaviour
     public MeshRenderer b1Button;
     public Material[] buttonMaterials;
 
+    public Collider fuseCol, buttonCol;
+    public AudioSource fuseAudio, buttonAudio;
+
     public void PlaceFuse()
     {
         if(GameController.instance.hasFuse) //If you have the fuse
@@ -17,16 +20,25 @@ public class FuseBoxScript : MonoBehaviour
 
             GameController.instance.fuseInPlace = true; //Say that fuse is in place
             GameController.instance.hasFuse = false; //Remove fuse from inventory
+
+            fuseAudio.Play(); //Play fuse placemente audio
+            fuseCol.enabled = false; //Disable fuse place collider
         }
     }
 
     public void ActivateB1Energy()
     {
+        if(!GameController.instance.energyRestored) //If energy is not restored!
+            buttonAudio.Play(); //Play activate button Audio
+
         if(GameController.instance.fuseInPlace) //If fuse is in place
         {
             GameController.instance.energyRestored = true; //Restores Energy in B1 (Lab)
             b1Button.material = buttonMaterials[2]; //Change button to green
             GameController.instance.ChangeObjective(4); //Complete objective
+
+            buttonAudio.Play(); //Play activate button Audio
+            buttonCol.enabled = false; //Disable button collider
         }
     }
 
