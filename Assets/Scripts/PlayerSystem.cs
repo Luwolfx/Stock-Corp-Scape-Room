@@ -55,9 +55,13 @@ public class PlayerSystem : MonoBehaviour
             if(interact) //If you clicked to interact
             {
                 interact = false; //Set interact back to false
+
+                //Get distance between Camera and Interaction GameObject
+                float distance = Vector3.Distance(Camera.main.transform.position, hit.collider.gameObject.transform.position);
                 
-                if(hit.collider.gameObject.GetComponent<Button>()) //If object is a button
-                    hit.collider.gameObject.GetComponent<Button>().onClick.Invoke(); //Execute button onClick Action!
+                if(distance <= 2) //If distance to object is less than 2
+                    if(hit.collider.gameObject.GetComponent<Button>()) //If object is a button
+                        hit.collider.gameObject.GetComponent<Button>().onClick.Invoke(); //Execute button onClick Action!
             }
         }
     }

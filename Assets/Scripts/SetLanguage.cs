@@ -12,7 +12,7 @@ public class SetLanguage : MonoBehaviour
 
     void Start()
     {
-        getTextType();
+        Invoke("getTextType", 0.01f);
     }
 
 
@@ -27,10 +27,17 @@ public class SetLanguage : MonoBehaviour
 
     void getTextType()
     {
-        if(LanguageSystem.Fields[TextId] == null)
+        if(LanguageSystem.Fields.Count <= 1)
         {
             Invoke("getTextType", 0.5f);
-            print("LanguageSystem or Id not found!");
+            print("LanguageSystem not found!");
+            return;
+        }
+
+        if(!LanguageSystem.Fields.ContainsKey(TextId))
+        {
+            Invoke("getTextType", 0.5f);
+            print("TextId not found!");
             return;
         }
 

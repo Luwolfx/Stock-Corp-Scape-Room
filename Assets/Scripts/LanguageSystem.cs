@@ -22,7 +22,10 @@ public class LanguageSystem : MonoBehaviour
             DontDestroyOnLoad(gameObject); //Set this to not be destroyed
         } 
         else Destroy(gameObject); //If already have instance, destroy this!
+    }
 
+    void Start() 
+    {
         LoadLanguage(); //Load language
     }
 
