@@ -11,83 +11,84 @@
 #----------------------------------------------------------------------------------------------
 #
 #   MENU
-play = PLAY
-credits = CREDITS
-quit = QUIT GAME
+play = JOGAR
+credits = CRÉDITOS
+quit = SAIR DO JOGO
 #
 #----------------------------------------------------------------------------------------------
 #
 #   OBJECTIVES
-objective.title = Objective
-objective.0 = Verify mails in your pc to find a hint to escape the company
-objective.1 = Find out Mary's PC password, it's probably travel related
-objective.2 = Find the Fuse
-objective.3 = Put the fuse back in its place and activate labs energy 
-objective.4 = Find out the lab PC password, there must be some hint on Mary's PC
-objective.5 = Discover the secret of the servers 
-objective.6 = Find out the Entrance PC password
-objective.7 = LEAVE THE COMPANY
-objective.8 = LEAVE THE COMPANY
-objective.9 = LEAVE THE COMPANY
-objective.10 = LEAVE THE COMPANY
+objective.title = Objetivo
+objective.0 = Verifique os seus emails em seu pc e encontre uma dica para escapar da empresa
+objective.1 = Encontre a senha do computador da Mary, provavelmente está relacionado a viajens
+objective.2 = Encontre o fusível
+objective.3 = Coloque o fusível de volta em seu lugar e ative a energia do laboratório 
+objective.4 = Encontre a senha do computador do laboratório, deve ter uma dica no computador da Mary
+objective.5 = Descubra o segredo dos servidores 
+objective.6 = Encontre a senha do computador da Entrada
+objective.7 = SAIA DA EMPRESA
+objective.8 = SAIA DA EMPRESA
+objective.9 = SAIA DA EMPRESA
+objective.10 = SAIA DA EMPRESA
 #
 #----------------------------------------------------------------------------------------------
 #
 #   HUD TEXTS
-item.fuse = fuse
+item.fuse = fusível
 #
 #----------------------------------------------------------------------------------------------
 #
 #   COMPUTER HUD
-login.insertpassword = INSERT PASSWORD
-login.button.login = Login
-login.error.title = ERROR
-login.error.servers = SOME SERVERS MAY BE OFFLINE!
+login.insertpassword = INSIRA A SENHA
+login.button.login = Entrar
+login.error.title = ERRO!
+login.error.servers = ALGUNS SERVIDORES PODEM ESTAR OFFLINE!
 #
-logged.opendoor = Open Door
-logged.logout = Logout
-logged.email = Email
-logged.servers = Servers
+logged.opendoor = Abra a porta
+logged.logout = Sair
+logged.email = E-mail
+logged.servers = Servidores
 #
 #----------------------------------------------------------------------------------------------
 #
 #   COMPUTER EMAILS
-mail.title.passwords = Passwords
-mail.title.sorryjohn = Sorry John
-mail.title.serverslist = Servers List
-mail.title.labenergy = Lab Energy
-mail.title.travelling = Travelling
-mail.title.serverproblems = Server Problems
-mail.title.entrancepassword = Entrance Password
+mail.title.passwords = Senhas
+mail.title.sorryjohn = Desculpe John
+mail.title.serverslist = Lista de Servidores
+mail.title.labenergy = Energia do Lab
+mail.title.travelling = Viajens
+mail.title.serverproblems = Problema nos Servers
+mail.title.entrancepassword = Senha da Entrada
 #---
-mail.passwords = <color=grey>From: </color>Mary<br><color=grey>Subject: </color>New Passwords!<br><color=grey>Email: </color> Hey John, I have changed te passwords of all PC's in the company, if you need some just talk with me or see them on the PC in the Stock room!<br><br>Also, I haven't changed your PC password! xD
+mail.passwords = <color=grey>De: </color>Mary<br><color=grey>Assunto: </color>Novas Senhas!<br><color=grey>E-mail: </color> Hey John, Eu mudei a senha de todos os computadores da empresa, se você precisar de alguma fale comigo ou você pode ver elas no computador da sala de estoque!<br><br>Aliás, eu não mudei a senha do seu computador! xD
 #---
-mail.sorryjohn = <color=grey>From: </color>Mary<br><color=grey>Subject: </color>Sorry... I'm still in Vancouver...<br><color=grey>Email: </color> Hey John, I'm so sorry but i'm still in vancouver... My plane back to Brazil have been cancelled so i'm stuck in here for more 3 days.<br>Hang in there without me a few more days, and sorry again...
+mail.sorryjohn = <color=grey>De: </color>Mary<br><color=grey>Assunto: </color>Desculpe... Ainda estou em Vancouver...<br><color=grey>E-mail: </color> Hey John, me desculpe mais ainda estou em Vancouver... Meu avião de volta para o Brasil foi cancelado, estou presa aqui por mais 3 dias.<br>Aguente ai mais alguns dias, e me desculpa de novo...
 #
-mail.sorryjohn.marypc = <color=grey>To: </color>John<br><color=grey>Subject: </color>Sorry... I'm still in Vancouver...<br><color=grey>Email: </color> Hey John, I'm so sorry but i'm still in vancouver... My plane back to Brazil have been cancelled so i'm stuck in here for more 3 days.<br>Hang in there without me a few more days, and sorry again...
+mail.sorryjohn.marypc = <color=grey>Para: </color>John<br><color=grey>Assunto: </color>Desculpe... Ainda estou em Vancouver...<br><color=grey>E-mail: </color> Hey John, me desculpe mais ainda estou em Vancouver... Meu avião de volta para o Brasil foi cancelado, estou presa aqui por mais 3 dias.<br>Aguente ai mais alguns dias, e me desculpa de novo...
 #
-mail.sorryjohn.2 = <color=grey>You<br>It's ok Mary! But no more days ok? i will die in here alone :(
+mail.sorryjohn.2 = <color=grey>Você<br>Está bem Mary! Mais não demora mais ok? Estou morrendo aqui sozinho :(
 #---
-mail.serverslist.john = <color=grey>From: </color>Wilson<br><color=grey>Subject: </color>Servers Content List<br><color=grey>Email: </color> Hey John, I don't know if you saw the email in the Lab PC, but i'll send it again here: "Since our company is investing in more servers, i'm arranging the files for each specific server, here is a list to you:<br>1- Sales Data in Europe<br>2- Sales Data in South America<br>3- Sales Data in North America<br>4- Sales Data in Central America<br>5- Sales Data in Africa<br>6- Sales Data in Asia<br>7- Sales Data in Australia<br>8- Unregistered Sales Data<br>9- Employee Data<br>10- Company Purchasing Data<br>11- Confidential business files "
+mail.serverslist.john = <color=grey>De: </color>Wilson<br><color=grey>Assunto: </color>Lista de Conteúdo dos Servidores<br><color=grey>E-mail: </color> Hey John, Eu não sei se você viu o e-mail no computador do laboratório, mais eu vou enviar aqui novamente: "Agora que a nossa empresa está investindo em mais servidores, decidi organizar os arquivos em servidores específicos, aqui está uma lista para você:<br>1- Dados de Vendas na Europa<br>2- Dados de Vendas na América do Sul<br>3- Dados de Vendas na América do Norte<br>4- Dados de Vendas na América Central<br>5- Dados de Vendas na África<br>6- Dados de Vendas na Ásia<br>7- Dados de Vendas na Austrália<br>8- Dados de Vendas não registradas<br>9- Dados dos Funcionários<br>10- Dados das Compras da Empresa<br>11- Arquivos confidencias de negócios"
 #
-mail.serverslist.mary = <color=grey>From: </color>Wilson<br><color=grey>Subject: </color>Servers Content List<br><color=grey>Email: </color> Hey Mary, I don't know if you saw the email in the Lab PC, but i'll send it again here: "Since our company is investing in more servers, i'm arranging the files for each specific server, here is a list to you:<br>1- Sales Data in Europe<br>2- Sales Data in South America<br>3- Sales Data in North America<br>4- Sales Data in Central America<br>5- Sales Data in Africa<br>6- Sales Data in Asia<br>7- Sales Data in Australia<br>8- Unregistered Sales Data<br>9- Employee Data<br>10- Company Purchasing Data<br>11- Confidential business files "
+mail.serverslist.mary = <color=grey>De: </color>Wilson<br><color=grey>Assunto: </color>Lista de Conteúdo dos Servidores<br><color=grey>E-mail: </color> Hey Mary, Eu não sei se você viu o e-mail no computador do laboratório, mais eu vou enviar aqui novamente: "Agora que a nossa empresa está investindo em mais servidores, decidi organizar os arquivos em servidores específicos, aqui está uma lista para você:<br>1- Dados de Vendas na Europa<br>2- Dados de Vendas na América do Sul<br>3- Dados de Vendas na América do Norte<br>4- Dados de Vendas na América Central<br>5- Dados de Vendas na África<br>6- Dados de Vendas na Ásia<br>7- Dados de Vendas na Austrália<br>8- Dados de Vendas não registradas<br>9- Dados dos Funcionários<br>10- Dados das Compras da Empresa<br>11- Arquivos confidencias de negócios"
 #
-mail.serverslist = <color=grey>From:</color> Wilson<br><color=grey>Subject:</color> Server List<br><color=grey>Email:</color> Hello workers,<br>Since our company is investing in more servers, i'm arranging the files for each specific server. <br><br>I'll send a list of what wich server will contain in your company emails, so please stay tuned in your emails in the next few days!<br><br>Best Regards,<br>Wilson
+mail.serverslist = <color=grey>De:</color> Wilson<br><color=grey>Assunto:</color> Lista de Servidores<br><color=grey>Email:</color> Olá colaboradores,<br>Agora que a nossa empresa está investindo em mais servidores, decidi organizar os arquivos em servidores específicos. <br><br>Vou enviar uma lista do que cada servidor irá conter nos seus emails da empresa, então por favor fiquem ligados em seus e-mails nos próximos diass!<br><br>Atenciosamente,<br>Wilson
 #---
-mail.labenergy = <color=grey>To: </color>Wilson<br><color=grey>Subject: </color>Strange thing in eletrical...<br><color=grey>Email: </color> Hey Wilson,<br>Can you see a problem with the lab's electrical? There are strange sounds and lights going out of nowhere. Well, I took the fuse from the Lab just to guarantee that nothing explodes, I put it in one of the drawers at the company. 
+mail.labenergy = <color=grey>Para: </color>Wilson<br><color=grey>Assunto: </color>Algo de estranho na elétrica...<br><color=grey>E-mail: </color> Hey Wilson,<br>Você pode dar uma olhada em um problema na elétrica do laboratório? Tenho escutado alguns sons estranhos e visto luzes apagando do nada. Bem, eu peguei o fusível do laboratório para garantir que nada exploda, eu coloquei ele em uma das gavetas da empresa. 
 #---
-mail.travelling = <color=grey>To: </color>Rose<br><color=grey>Subject: </color>I'll TRAVELLL<br><color=grey>Email: </color> Hey rose! guess what? I'm going on a vacation!!!!! YESSS, I planned to go around the world visiting other country's, starting with USA, yes, i'm going to NEW YORK!!! I'm so happy xD
+mail.travelling = <color=grey>Para: </color>Rose<br><color=grey>Assunto: </color>EUU VOUU VIAJARRRRR<br><color=grey>E-mail: </color> Hey Rose! Adivinha? Eu estou de viajem!!!!! SIMMM, eu planejei em viajar pelo mundo visitando outros países, começando com os EUA, sim, eu vou ir para NOVA YORK!!! Estou tão feliz xD
 #
-mail.travelling.2 = <color=grey>Rose<br>OMG, thats so NICE, I wish i could travel, i would go to Argentina, I have a lot of friends there!
+mail.travelling.2 = <color=grey>Rose<br>OMG, isso é TÃO LEGAL, eu deveria viajar, eu iria para a Agentina, eu tenho um monte de amigos lá!
 #
-mail.travelling.3 = You<br>Argentina? don't you have friends in italy too? Sorry I really don't like Argentina, it's one place that I probably will never go, together with Australia, China, and... I really don't like the Laboratory here on the company I work, it is literally in front of me but I never gone there... I think is haunted, idk, it's strange.
+mail.travelling.3 = Você<br>Argentina? Você não tem amigos na Itália também? Me desculpa, eu não gosto da Argentina, é um dos lugares que eu provavelmente nunca irei, junto com China, Austrália e... Eu realmente não gosto do laborátorio aqui na empresa em que trabalho, eu literalmente nunca fui lá.... Eu acho que é assombrado, não sei, é estranho.
 #---
-mail.serverproblems = <color=grey>From:</color> Wilson<br><color=grey>Subject:</color> Server Problems<br><color=grey>Email:</color> Hello workers,<br>You may notice that some archives is missing in your pcs, that is because some server files corrupted last day and some servers crashed, because of this the computer in stock room is inoperant, the crashed servers are also crashing the pc.<br><br>I'll make a relatory of the corrupted archives and let it on the stock room!<br><br>Sorry but I can't solve this problem this week, I will solve them next Tuesday!
+mail.serverproblems = <color=grey>De:</color> Wilson<br><color=grey>Assunto:</color> Problema nos Servidores<br><color=grey>E-mail:</color> Hello colaboradores,<br>Vocês provavelmente vão notar que alguns arquivos sumiram dos seus computadores, isso é porque alguns arquivos no servidor corromperam ontem e alguns servidores travaram, por causa disso o computador na sala de estoque está inoperante, os servidores travados estão travando o computador.<br><br>Eu farei um relatório dos arquivos corrompidos e deixarei ele na sala de estoque!<br><br>Me desculpe mais não consigo resolver esse problema nessa semana, eu irei resolver na próxima terça-feira!
 #---
-mail.entrancepassword = <color=grey>To: </color>Boss<br><color=grey>Subject: </color>New Entrance Password<br><color=grey>Email: </color> Hey Boss,<br><br>Mary changed all the passwords as you wished, I still don't know Labs PC Password but I know the Entrance one.<br><br>She put the number of products we received last week, so it's like that:<br>number of Vases received + number of box received + number of servers we have!<br><br>Hope it helps!<br>Wilson
+mail.entrancepassword = <color=grey>Para: </color>Chefe<br><color=grey>Assunto: </color>Nova senha da entrada<br><color=grey>E-mail: </color> Hey Chefe,<br><br>Mary trocou todas as senhas como você desejava, Eu ainda não sei a senha do computador do laboratório mais eu sei a da entrada.<br><br>Ela colocou o numero dos produtos que a gente recebeu na última semana, então ficaria assim:<br>número de vasos recebidos + número de caixas recebidas + número de servidores que a gente tem!<br><br>Espero que isso ajude!<br>Wilson
 #
 #----------------------------------------------------------------------------------------------
 #
 #   OTHER TEXTS
-servers.relatory = <size=46>SERVERS <br>RELATORY</size><br>You may notice missing archives of company purchases, not registered sells, and archives of sells on the following DDI's: 86, 53, 49, 33 and 61.
-credits.gametime = Your total Game Time: (min:sec)
+servers.relatory = RELATÓRIO<br>DOS<br>SERVIDORES
+servers.relatory.2 = Vocês devem sentir falta de arquivos de compras, vendas não registradas e vendas com seguintes DDIs: 86, 53, 49, 33 e 61.
+credits.gametime = Seu tempo de jogo total: (min:seg)

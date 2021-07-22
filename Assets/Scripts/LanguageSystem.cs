@@ -36,7 +36,6 @@ public class LanguageSystem : MonoBehaviour
 
         Fields.Clear();
         string lang = Get2LetterISOCodeFromSystemLanguage().ToLower();
-        lang = "en";
 
         var textAsset = Resources.Load(@"Languages/" + lang); //no .txt needed
         string allTexts = "";
@@ -62,6 +61,48 @@ public class LanguageSystem : MonoBehaviour
                         lines[i].Length - lines[i].IndexOf("=") - 2).Replace("\\n", System.Environment.NewLine);
                 Fields.Add(key, value);
             }
+        }
+    }
+
+    /// <summary>
+    /// Load language files from ressources
+    /// </summary>
+    public void LoadSpecificLanguage(string lang)
+    {
+        if (Fields == null)
+            Fields = new Dictionary<string, string>();
+
+        Fields.Clear();
+
+        var textAsset = Resources.Load(@"Languages/" + lang); //no .txt needed
+        string allTexts = "";
+
+        if (textAsset == null)
+            textAsset = Resources.Load(@"Languages/en") as TextAsset; //no .txt needed
+
+        if (textAsset == null)
+            Debug.LogError("File not found for I18n: Assets/Resources/I18n/" + lang + ".txt");
+
+        allTexts = (textAsset as TextAsset).text;
+        
+        string[] lines = allTexts.Split(new string[] { "\r\n", "\n" },  System.StringSplitOptions.None);
+        
+        string key, value;
+        
+        for (int i = 0; i < lines.Length; i++)
+        {
+            if (lines[i].IndexOf("=") >= 0 && !lines[i].StartsWith("#"))
+            {
+                key = lines[i].Substring(0, lines[i].IndexOf(" ="));
+                value = lines[i].Substring(lines[i].IndexOf("=") + 2,
+                        lines[i].Length - lines[i].IndexOf("=") - 2).Replace("\\n", System.Environment.NewLine);
+                Fields.Add(key, value);
+            }
+        }
+
+        foreach(SetLanguage l in FindObjectsOfType<SetLanguage>()) //foreach Text with LanguageSet System
+        {
+            l.setNewText = true; //Alternate text
         }
     }
 

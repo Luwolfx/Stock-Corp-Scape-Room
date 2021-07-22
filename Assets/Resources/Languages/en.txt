@@ -60,7 +60,7 @@ mail.title.travelling = Travelling
 mail.title.serverproblems = Server Problems
 mail.title.entrancepassword = Entrance Password
 #---
-mail.passwords = <color=grey>From: </color>Mary<br><color=grey>Subject: </color>New Passwords!<br><color=grey>Email: </color> Hey John, I have changed te passwords of all PC's in the company, if you need some just talk with me or see them on the PC in the Stock room!<br><br>Also, I haven't changed your PC password! xD
+mail.passwords = <color=grey>From: </color>Mary<br><color=grey>Subject: </color>New Passwords!<br><color=grey>Email: </color> Hey John, I have changed the passwords of all PC's in the company, if you need some just talk with me or see them on the PC in the Stock room!<br><br>Also, I haven't changed your PC password! xD
 #---
 mail.sorryjohn = <color=grey>From: </color>Mary<br><color=grey>Subject: </color>Sorry... I'm still in Vancouver...<br><color=grey>Email: </color> Hey John, I'm so sorry but i'm still in vancouver... My plane back to Brazil have been cancelled so i'm stuck in here for more 3 days.<br>Hang in there without me a few more days, and sorry again...
 #
@@ -76,11 +76,11 @@ mail.serverslist = <color=grey>From:</color> Wilson<br><color=grey>Subject:</col
 #---
 mail.labenergy = <color=grey>To: </color>Wilson<br><color=grey>Subject: </color>Strange thing in eletrical...<br><color=grey>Email: </color> Hey Wilson,<br>Can you see a problem with the lab's electrical? There are strange sounds and lights going out of nowhere. Well, I took the fuse from the Lab just to guarantee that nothing explodes, I put it in one of the drawers at the company. 
 #---
-mail.travelling = <color=grey>To: </color>Rose<br><color=grey>Subject: </color>I'll TRAVELLL<br><color=grey>Email: </color> Hey rose! guess what? I'm going on a vacation!!!!! YESSS, I planned to go around the world visiting other country's, starting with USA, yes, i'm going to NEW YORK!!! I'm so happy xD
+mail.travelling = <color=grey>To: </color>Rose<br><color=grey>Subject: </color>I'll TRAVELLL<br><color=grey>Email: </color> Hey Rose! guess what? I'm going on a vacation!!!!! YESSS, I planned to go around the world visiting other country's, starting with USA, yes, i'm going to NEW YORK!!! I'm so happy xD
 #
 mail.travelling.2 = <color=grey>Rose<br>OMG, thats so NICE, I wish i could travel, i would go to Argentina, I have a lot of friends there!
 #
-mail.travelling.3 = You<br>Argentina? don't you have friends in italy too? Sorry I really don't like Argentina, it's one place that I probably will never go, together with Australia, China, and... I really don't like the Laboratory here on the company I work, it is literally in front of me but I never gone there... I think is haunted, idk, it's strange.
+mail.travelling.3 = You<br>Argentina? don't you have friends in italy too? Sorry I really don't like Argentina, it's one place that I probably will never go, together with China, Australia and... I really don't like the Laboratory here on the company I work, it is literally in front of me but I never gone there... I think is haunted, idk, it's strange.
 #---
 mail.serverproblems = <color=grey>From:</color> Wilson<br><color=grey>Subject:</color> Server Problems<br><color=grey>Email:</color> Hello workers,<br>You may notice that some archives is missing in your pcs, that is because some server files corrupted last day and some servers crashed, because of this the computer in stock room is inoperant, the crashed servers are also crashing the pc.<br><br>I'll make a relatory of the corrupted archives and let it on the stock room!<br><br>Sorry but I can't solve this problem this week, I will solve them next Tuesday!
 #---
@@ -89,5 +89,6 @@ mail.entrancepassword = <color=grey>To: </color>Boss<br><color=grey>Subject: </c
 #----------------------------------------------------------------------------------------------
 #
 #   OTHER TEXTS
-servers.relatory = <size=46>SERVERS <br>RELATORY</size><br>You may notice missing archives of company purchases, not registered sells, and archives of sells on the following DDI's: 86, 53, 49, 33 and 61.
+servers.relatory = SERVERS<br>RELATORY
+servers.relatory.2 = You may notice missing archives of company purchases, not registered sells, and archives of sells on the following DDI's: 86, 53, 49, 33 and 61.
 credits.gametime = Your total Game Time: (min:sec)

@@ -1221,16 +1221,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 702347509}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1483228695}
+        m_TargetAssemblyTypeName: ChangeLanguage, Assembly-CSharp
+        m_MethodName: changeLanguage
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: en
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1047398011
@@ -1489,6 +1489,7 @@ GameObject:
   - component: {fileID: 1483228692}
   - component: {fileID: 1483228694}
   - component: {fileID: 1483228693}
+  - component: {fileID: 1483228695}
   m_Layer: 5
   m_Name: LanguageMenu
   m_TagString: Untagged
@@ -1552,6 +1553,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483228691}
   m_CullTransparentMesh: 1
+--- !u!114 &1483228695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483228691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a23f1055ce937747839409dbf09be97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1622622779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,16 +2523,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 702347509}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1483228695}
+        m_TargetAssemblyTypeName: ChangeLanguage, Assembly-CSharp
+        m_MethodName: changeLanguage
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: pt
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2097233877
