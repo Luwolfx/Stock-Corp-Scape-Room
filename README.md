@@ -3,7 +3,7 @@
  
 # Baixe o Jogo!
  Baixe o jogo pelo link a seguir:<br>
- <a href="https://github.com/lucasgpgpae/REALVI-Scape-Room/releases/download/Release/Stock.Corp.Scape.Room.zip">DOWNLOAD AQUI</a>
+ <a href="https://github.com/lucasgpgpae/Stock-Corp-Scape-Room/releases/download/Release/Stock.Corp.Scape.Room.zip">DOWNLOAD AQUI</a>
  
 # Como jogar:
  Use W, A, S, D para se mover. <br>
