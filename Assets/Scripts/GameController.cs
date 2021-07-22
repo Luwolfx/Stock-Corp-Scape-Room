@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class GameController : MonoBehaviour
 
     [Header("Game Statistics")]
     public string totalGameTime;
+    public TMP_Text totalGameTime_Text;
     private float gameStartedTime;
     
     [Header("Objectives")]
@@ -91,6 +93,7 @@ public class GameController : MonoBehaviour
         //TIMER
         totalGameTime = min + ":"; //put minutes in totalGameTime
         if(secs > 9) totalGameTime+= secs; else totalGameTime+= "0"+secs; //put seconds in totalGameTime
+        totalGameTime_Text.text = totalGameTime; //Put timer in HUD
     }
 
     public void SaveGameTime()

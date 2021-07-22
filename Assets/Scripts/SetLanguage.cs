@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using TMPro;
-using UnityEditorInternal;
 
 public class SetLanguage : MonoBehaviour
 {
