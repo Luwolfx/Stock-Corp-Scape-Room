@@ -176,7 +176,6 @@ public class LanguageSystem : MonoBehaviour
             case SystemLanguage.Unknown: res = "EN"; break;
             case SystemLanguage.Portuguese: res = "PT"; break;
         }
-        //		Debug.Log ("Lang: " + res);
         return res;
     }
 }

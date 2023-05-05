@@ -14,6 +14,10 @@
 play = PLAY
 credits = CREDITS
 quit = QUIT GAME
+pause.title = GAME PAUSED
+pause.unpause = RESUME GAME
+pause.exit = EXIT GAME
+pause.mouse = MOUSE SENSITIVITY
 #
 #----------------------------------------------------------------------------------------------
 #
@@ -26,9 +30,9 @@ objective.3 = Put the fuse back in its place and activate labs energy
 objective.4 = Find out the lab PC password, there must be some hint on Mary's PC
 objective.5 = Discover the secret of the servers 
 objective.6 = Find out the Entrance PC password
-objective.7 = LEAVE THE COMPANY
-objective.8 = LEAVE THE COMPANY
-objective.9 = LEAVE THE COMPANY
+objective.7 = Check the fuse box
+objective.8 = Find a new fuse in the storage and replace the broken fuse
+objective.9 = Find out the Entrance PC password
 objective.10 = LEAVE THE COMPANY
 #
 #----------------------------------------------------------------------------------------------

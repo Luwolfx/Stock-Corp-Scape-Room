@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -12,14 +14,16 @@ public class GameController : MonoBehaviour
     public string totalGameTime;
     public TMP_Text totalGameTime_Text;
     private float gameStartedTime;
+
+    [Header("Game Mechanics")]
+    public MapController mapController;
+    public FuseBoxScript fuseBox;
+    public PlayerSystem playerSystem;
     
     [Header("Objectives")]
     public int actualObjective;
 
     [Header("Objective - Energy")]
-    public bool hasFuse, fuseInPlace, energyRestored;
-    private bool powerIsOn;
-    public GameObject[] energy_objects;
     public GameObject fuse_HUD_Icon;
 
     [Header("Objective - Servers")]
@@ -51,8 +55,9 @@ public class GameController : MonoBehaviour
         //Cursor Lock to center
         Cursor.lockState = CursorLockMode.Locked;
 
-
         gameStartedTime = Time.time;
+
+        playerSystem.player.enabled = true;
     }
 
     // Update is called once per frame
@@ -60,25 +65,7 @@ public class GameController : MonoBehaviour
     {
         GameTimer(); //Calculate GameTime
 
-        if(fuseInPlace) //If fuse is in place
-            if(energyRestored && !powerIsOn) //If energy is restored but power continues off
-            {
-                powerIsOn = true; //Set power to on
-                PowerObjectiveCheck(true); //Enable EnergyOnly Objects
-            }
-            else if(!energyRestored && powerIsOn) //If energy is off but power continues on
-            {
-                powerIsOn = false; //Set power to off
-                PowerObjectiveCheck(false); //Disable EnergyOnly Objects
-            }
-        else if(!fuseInPlace && (energyRestored || powerIsOn)) //If fuse isn't in place
-        {
-            powerIsOn = false; //Power is set to false
-            energyRestored = false; //Energy is set to false
-            PowerObjectiveCheck(false); //Disable EnergyOnly Objects
-        }
-
-        if(hasFuse) //If has fuse in inventory
+        if(playerSystem.inventory.Contains("FUSE")) //If has fuse in inventory
             fuse_HUD_Icon.SetActive(true); //Show fuse icon in HUD
         else //If hasn't fuse in inventory
             fuse_HUD_Icon.SetActive(false); //Hide fuse icon in HUD
@@ -94,6 +81,15 @@ public class GameController : MonoBehaviour
         totalGameTime = min + ":"; //put minutes in totalGameTime
         if(secs > 9) totalGameTime+= secs; else totalGameTime+= "0"+secs; //put seconds in totalGameTime
         totalGameTime_Text.text = totalGameTime; //Put timer in HUD
+    }
+
+    public void BreakStorageLights()
+    {
+        if(actualObjective == 6)
+        {
+            ChangeObjective(7);
+            fuseBox.GetFuseArea("STORAGE").BreakFuse();
+        }
     }
 
     public void SaveGameTime()
@@ -135,17 +131,14 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void PowerObjectiveCheck(bool hasPower)
-    {
-        foreach(GameObject g in energy_objects) //get every energy object
-        {
-            g.SetActive(hasPower); //Activate or Deactivate depending on power is on or off
-        }
-    }
-
     public void ChangeObjective(int objNumber)
     {
         if(objNumber > actualObjective) actualObjective = objNumber; //If objective number is more than the actual, change the actual to this.
+    }
+
+    public void GetItem(string itemName)
+    {
+        playerSystem.inventory.Add(itemName);
     }
 
 }

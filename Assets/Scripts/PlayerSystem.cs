@@ -1,6 +1,6 @@
+using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
-using StarterAssets;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,7 +13,11 @@ public class PlayerSystem : MonoBehaviour
     public GameObject mobileController;
     public Button getItem;
     public GameObject centerObject;
+    public GameObject pauseCanvas;
+    public FirstPersonController player;
     public bool interact;
+
+    public List<string> inventory = new List<string>();
 
     Ray ray;
     RaycastHit hit;

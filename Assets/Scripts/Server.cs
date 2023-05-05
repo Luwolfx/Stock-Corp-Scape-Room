@@ -10,7 +10,7 @@ public class Server : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameController.instance.energyRestored) // if energy is on
+        if(GameController.instance.mapController.GetRoom("LABORATORY").hasEnergy) // if energy is on
         {
             if(isOn) gameObject.GetComponent<MeshRenderer>().material = onMat; //if server is on change material to green
             else gameObject.GetComponent<MeshRenderer>().material = offMat; //if server is off change material do red
@@ -23,7 +23,7 @@ public class Server : MonoBehaviour
 
     public void PowerOnOff()
     {
-        if(GameController.instance.energyRestored) //If has energy
+        if(GameController.instance.mapController.GetRoom("LABORATORY").hasEnergy) //If has energy
         {
             if(isOn) isOn = false; else isOn = true; // Turn power on/off
             GameController.instance.ServerObjectiveCheck();
