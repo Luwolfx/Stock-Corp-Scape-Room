@@ -1374,9 +1374,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=#5AA19F>A game by:</color>\nLucas Gomes Palmieri\n\n<color=#5AA19F>Challenges:</color>\nLucas
-    Gomes Palmieri\n\n<color=#5AA19F>Map design:</color>\nLucas Gomes Palmieri\n\n<color=#5AA19F>Puzzles
-    Mechanics:</color>\nLucas Gomes Palmieri\n\n\n\n\n\n<color=#5AA19F>Assets and
+  m_text: "<color=#5AA19F>A game by:</color>\nLuwolf (Lucas Gomes)\n\n<color=#5AA19F>Challenges:</color>\nLuwolf
+    (Lucas Gomes)\n\n<color=#5AA19F>Map design:</color>\nLuwolf (Lucas Gomes)\n\n<color=#5AA19F>Puzzles
+    Mechanics:</color>\nLuwolf (Lucas Gomes)\n\n\n\n\n\n<color=#5AA19F>Assets and
     Images:</color>\nAll images and assets used in this game are free to use! \n\n<size=16>Unity
     Assetstore</size>\n<color=#5AA19F>Free Sci-Fi Office Pack</color>\nMade by Terresquall\r\n\n<size=16>Unity
     Assetstore</size>\n<color=#5AA19F>Starter Assets - First Person Character Controller</color>\nMade
